@@ -37,8 +37,8 @@
         </div>
 
               </div>
-                                                                </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              -->
+                                                                    </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  -->
   <div class="flex xl:h-[100vh]  columns-2 pb-0 sm:columns-3 md:columns-3 lg:columns-3 xl:columns-3 2xl:columns-3">
     <div class="m-0 mt-20 h-[100%] basis-1/2 flex-col md:ml-5 xl:mt-40">
       <div class="relative ml-3 w-[80%] sm:ml-0">
@@ -85,7 +85,7 @@
 
     <div class="hidden flex-col items-center justify-evenly px-0 py-0 sm:flex md:flex lg:flex xl:flex 2xl:flex">
       <a href="https://github.com/ValentinSaraiva-MMI 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
         target="_blank">
         <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
@@ -95,7 +95,7 @@
       </a>
 
       <a href="https://www.instagram.com/valentin_saraiva/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
         target="_blank">
         <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -110,7 +110,7 @@
         </svg>
       </a>
       <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
         target="_blank">
         <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -119,7 +119,7 @@
         </svg>
       </a>
       <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
         target="_blank">
         <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -191,7 +191,7 @@
 
 
       <div class="relative">
-        <cardComponent class="fill-white text-white" nom="" image="src/components/icons/icons-competences/html.svg" />
+        <cardComponent class="fill-white text-white" nom="" image="images/icons-competences/html.svg" />
         <p class=" text-center font-lato text-[28px]  text-white ">Html 5 </p>
 
         <svg class="mx-auto mt-2" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -212,7 +212,7 @@
       </div>
 
       <div class="relative">
-        <cardComponent class="fill-white text-white" nom="" image="src/components/icons/icons-competences/js.svg" />
+        <cardComponent class="fill-white text-white" nom="" image="images/icons-competences/js.svg" />
         <p class=" text-center font-lato text-[28px]  text-white ">JavaScript</p>
 
         <svg class="mx-auto mt-2" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -223,7 +223,7 @@
       </div>
 
       <div class="relative">
-        <cardComponent class="fill-white text-white" nom="" image="src/components/icons/icons-competences/csharp.svg" />
+        <cardComponent class="fill-white text-white" nom="" image="images/icons-competences/csharp.svg" />
         <p class=" text-center font-lato text-[28px]  text-white ">C# </p>
 
         <svg class="mx-auto mt-2" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -234,7 +234,7 @@
       </div>
 
       <div class="relative">
-        <cardComponent class="fill-white text-white" nom="" image="src/components/icons/icons-competences/tailwind.svg" />
+        <cardComponent class="fill-white text-white" nom="" image="images/icons-competences/tailwind.svg" />
         <p class=" text-center font-lato text-[28px]  text-white ">Tailwind CSS </p>
 
         <svg class="mx-auto mt-2" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -244,7 +244,7 @@
       </div>
 
       <div class="relative">
-        <cardComponent class="fill-white text-white" nom="" image="src/components/icons/icons-competences/figma.svg" />
+        <cardComponent class="fill-white text-white" nom="" image="images/icons-competences/figma.svg" />
         <p class=" text-center font-lato text-[28px]  text-white ">Figma </p>
 
         <svg class="mx-auto mt-2" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -254,7 +254,7 @@
       </div>
 
       <div class="relative">
-        <cardComponent class="fill-white text-white" nom="" image="src/components/icons/icons-competences/unity.svg" />
+        <cardComponent class="fill-white text-white" nom="" image="images/icons-competences/unity.svg" />
         <p class=" text-center font-lato text-[28px]  text-white ">Unity</p>
 
         <svg class="mx-auto mt-2" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -265,8 +265,7 @@
       </div>
 
       <div class="relative">
-        <cardComponent class="fill-white text-white" nom=""
-          image="src/components/icons/icons-competences/wordpress.svg" />
+        <cardComponent class="fill-white text-white" nom="" image="images/icons-competences/wordpress.svg" />
         <p class=" text-center font-lato text-[28px]  text-white ">WordPress</p>
 
         <svg class="mx-auto mt-2" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -277,7 +276,7 @@
       </div>
 
       <div class="relative">
-        <cardComponent class="fill-white text-white" nom="" image="src/components/icons/icons-competences/adobe.svg" />
+        <cardComponent class="fill-white text-white" nom="" image="images/icons-competences/adobe.svg" />
         <p class=" text-center font-lato text-[28px]  text-white ">Adobe Creative Suite</p>
 
         <svg class="mx-auto mt-2" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -288,7 +287,7 @@
       </div>
 
       <div class="relative">
-        <cardComponent class="fill-white text-white" nom="" image="src/components/icons/icons-competences/msoffice.svg" />
+        <cardComponent class="fill-white text-white" nom="" image="images/icons-competences/msoffice.svg" />
         <p class=" text-center font-lato text-[28px]  text-white ">Microsoft 365</p>
 
         <svg class="mx-auto mt-2" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -298,7 +297,7 @@
       </div>
 
       <div class="relative">
-        <cardComponent class="fill-white text-white" nom="" image="src/components/icons/icons-competences/firebase.svg" />
+        <cardComponent class="fill-white text-white" nom="" image="images/icons-competences/firebase.svg" />
         <p class=" text-center font-lato text-[28px]  text-white ">Firebase </p>
 
         <svg class="mx-auto mt-2" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -308,7 +307,7 @@
       </div>
 
       <div class="relative">
-        <cardComponent class="fill-white text-white" nom="" image="src/components/icons/icons-competences/azure.svg" />
+        <cardComponent class="fill-white text-white" nom="" image="images/icons-competences/azure.svg" />
         <p class=" text-center font-lato text-[28px]  text-white ">Microsoft Azure </p>
 
         <svg class="mx-auto mt-2" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -370,7 +369,7 @@
 
         <projetborne date="2022"
           titre="Borne de commande
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Musée  "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Musée  "
           tache="Intégration, UX design & Développement " image="/images/mockup/borne.webp" />
       </router-link>
 
@@ -393,7 +392,7 @@
 
         <projetcard date="2022" titre="First Stone"
           tache="Développement, level design, sound design,   
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Ux design "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Ux design "
           image="/images/mockup/game.png" />
       </router-link>
 
@@ -475,7 +474,7 @@
 
 
           <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                                                                                                                                                                                                    "
+                                                                                                                                                                                                                                                                                                                                                                        "
             target="_blank">
             <li>
               <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -487,7 +486,7 @@
           </a>
 
           <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                                                                                                                                                                                                    "
+                                                                                                                                                                                                                                                                                                                                                                        "
             target="_blank">
             <li>
               <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -582,8 +581,8 @@
               </a>
             </ul>
                 </div>
-                                                                    </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                            -->
+                                                                        </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                -->
 
     <!-- <div>
 
@@ -648,7 +647,7 @@
           </div>
 
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                  </div> -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                      </div> -->
       <RouterLink class="my-auto" to="/">
         <logoValentin class=" w-12 md:ml-5 md:w-14 " />
       </RouterLink>
@@ -799,7 +798,7 @@
           </RouterLink>
                   <p class="text-center font-montserrat text-base font-medium text-white">© Valentin Saraiva. 2022</p>
          
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      -->
 </template>
 
 
