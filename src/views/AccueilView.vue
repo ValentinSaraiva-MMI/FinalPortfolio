@@ -37,8 +37,8 @@
         </div>
 
               </div>
-                                </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              -->
+                                              </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            -->
   <div class="flex xl:h-[100vh]  columns-2 pb-0 sm:columns-3 md:columns-3 lg:columns-3 xl:columns-3 2xl:columns-3">
     <div class="m-0 mt-20 h-[100%] basis-1/2 flex-col md:ml-5 xl:mt-40">
       <div class="relative ml-3 w-[80%] sm:ml-0">
@@ -56,12 +56,13 @@
         </p>
 
         <div class="hidden mt-16 ml-1 md:flex h-20 space-x-4 xl:ml-36">
-          <a href="/contact">
+          <router-link to="/contact">
+
             <button
               class="btn-ctc xl:14 h-16 border-2 border-white px-12 text-base text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white md:h-16 lg:h-[65px] lg:text-lg">
               Me contacter <i class="fa-regular fa-arrow-down-to-bracket text-white"></i>
             </button>
-          </a>
+          </router-link>
 
           <a href="../public/document/CV.pdf" download>
             <button
@@ -84,7 +85,7 @@
 
     <div class="hidden flex-col items-center justify-evenly px-0 py-0 sm:flex md:flex lg:flex xl:flex 2xl:flex">
       <a href="https://github.com/ValentinSaraiva-MMI 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        "
         target="_blank">
         <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
@@ -94,7 +95,7 @@
       </a>
 
       <a href="https://www.instagram.com/valentin_saraiva/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        "
         target="_blank">
         <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -109,7 +110,7 @@
         </svg>
       </a>
       <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        "
         target="_blank">
         <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -118,7 +119,7 @@
         </svg>
       </a>
       <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        "
         target="_blank">
         <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -331,51 +332,71 @@
     <!--   grid max-w-6xl grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(25.5rem,1fr))] -->
     <div
       class=" grid grid-cols-1  items-center  sm:grid-cols-1 md:grid-cols-2    lg:mx-40      mt-16  justify-items-center      lg:mt-24 ">
-      <a href="/rampage">
+
+      <router-link to="/rampage">
+
+
         <projetcard date="2022" titre="Rampage" tache="Intégration, UX design & Développement "
           image="/public/images/mockup/rampage.webp" />
-      </a>
 
-      <a href="/olympe">
+
+      </router-link>
+
+      <router-link to="/olympe">
+
+
+
         <projetcard date="2021" titre="Olympe" tache="Intégration & UX design "
-          image="/public/images/mockup/mochupolympe2.webp" />
-      </a>
-      <a href="/montainclimber">
+          image="/images/mockup/mochupolympe2.webp" />
+
+      </router-link>
+
+
+      <router-link to="/montainclimber">
+
+
         <projetcard date="2022" titre="Montain Climber " tache="Intégration WordPress "
-          image="/public/images/mockup/montainclimber.webp" />
-      </a>
+          image="/images/mockup/montainclimber.webp" />
+      </router-link>
 
-      <a href="/camatch">
+
+      <router-link to="/camatch">
+
         <projetcamatch date="2022" titre="Ça match ? " tache="Intégration & UX design "
-          image="/public/images/mockup/camatch.webp" />
-      </a>
+          image="/images/mockup/camatch.webp" />
+      </router-link>
 
+      <router-link to="/borne">
 
-
-      <a href="/borne">
         <projetborne date="2022"
           titre="Borne de commande
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Musée  "
-          tache="Intégration, UX design & Développement " image="public/images/mockup/borne.webp" />
-      </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Musée  "
+          tache="Intégration, UX design & Développement " image="/images/mockup/borne.webp" />
+      </router-link>
 
-      <a href="/velotaf">
+
+      <router-link to="/velotaf">
+
+
         <projetcard date="2022" titre="Velotaf" tache="Intégration WordPress"
           image="/public/images/mockup/velotaf.webp" />
-      </a>
+      </router-link>
 
-      <a href="/webjam">
+      <router-link to="/webjam">
+
+
         <projetcard date="2022" titre="Webjam 2022 " tache="Développement & level design  "
           image="/public/images/mockup/webjam.webp" />
-      </a>
+      </router-link>
+
+      <router-link to="/firststone">
 
 
-      <a href="/firststone">
         <projetcard date="2022" titre="First Stone"
           tache="Développement, level design, sound design,   
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Ux design "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Ux design "
           image="public/images/mockup/game.png" />
-      </a>
+      </router-link>
 
 
 
@@ -385,10 +406,12 @@
       <h2 class="font-montserrat text-[2.5rem] font-semibold text-white md:text-[3.5rem] lg:text-[5.313rem]">COMMENÇONS UN
         PROJET</h2>
 
-      <button
-        class="md:mt-12 mt-5 h-8 px-8  text-base md:h-10 border-2 border-white md:px-10 md:text-lg text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white">
-        Contact
-      </button>
+      <router-link to="/contact">
+        <button
+          class="md:mt-12 mt-5 h-8 px-8  text-base md:h-10 border-2 border-white md:px-10 md:text-lg text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white">
+          Contact
+        </button>
+      </router-link>
 
       <!-- -->
       <div class="flex w-full flex-col mt-5 md:mt-0s lg:items-end">
@@ -453,7 +476,7 @@
 
 
           <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                                                                                                                                                                    "
+                                                                                                                                                                                                                                                                                                                                                  "
             target="_blank">
             <li>
               <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -465,7 +488,7 @@
           </a>
 
           <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                                                                                                                                                                    "
+                                                                                                                                                                                                                                                                                                                                                  "
             target="_blank">
             <li>
               <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -560,8 +583,8 @@
               </a>
             </ul>
                 </div>
-                                    </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                            -->
+                                                  </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                          -->
 
     <!-- <div>
 
@@ -626,7 +649,7 @@
           </div>
 
 
-                                                                                                                                                                                                                                                                                                                                                                                                                  </div> -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                </div> -->
       <RouterLink class="my-auto" to="/">
         <logoValentin class=" w-12 md:ml-5 md:w-14 " />
       </RouterLink>
@@ -777,7 +800,7 @@
           </RouterLink>
                   <p class="text-center font-montserrat text-base font-medium text-white">© Valentin Saraiva. 2022</p>
          
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                -->
 </template>
 
 
