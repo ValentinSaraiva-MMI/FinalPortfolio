@@ -12,7 +12,10 @@ body {
 
 }
 
+.collaborateur-align-end {
+  text-align: end;
 
+}
 
 .disparait {
   display: none;
