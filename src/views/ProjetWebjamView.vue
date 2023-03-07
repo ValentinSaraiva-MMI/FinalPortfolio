@@ -19,7 +19,7 @@
         <a
           href="https://tim.cgmatane.qc.ca/projet-4/2022/webjam/eq7/webjam%202022/
         
-                                                                                                                                                                                          ">
+                                                                                                                                                                                                ">
           <svg
             class="svg-hover transition: .2s; /* Animation */ sm:w-h-14 md:w-h-16 lg:h-2w-20 h-11 w-11 transform sm:h-14 md:h-16 lg:w-20 xl:h-24 xl:w-24"
             viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <img src="/public/images/mockup/webjam.webp" class="mx-auto mt-20 w-[55%]" alt="Webjam 2022 " />
+    <img src="/public/images/mockup/webjam.webp" class="mx-auto mt-20  w-[85%]  md:w-[55%]" alt="Webjam 2022 " />
 
     <h2
       class="ml-[6vw] mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh] sm:text-teal-300 md:text-red-600 lg:text-blue-700 xl:text-purple-600 2xl:text-green-500 font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
@@ -228,7 +228,7 @@
         </a>
 
         <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                        "
+                                                                                                                                                                                              "
           target="_blank">
           <li>
             <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -240,7 +240,7 @@
         </a>
 
         <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                        "
+                                                                                                                                                                                              "
           target="_blank">
           <li>
             <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
