@@ -123,6 +123,13 @@ h1 {
   -webkit-animation: wheel 2s infinite;
 }
 
+
+
+
+.tapping {}
+
+
+
 @keyframes wheel {
   to {
     opacity: 0;
