@@ -16,9 +16,10 @@
       </div>
 
       <div class="ml-10">
-        <a href="https://tim.cgmatane.qc.ca/projet-4/2022/webjam/eq7/webjam%202022/
+        <a
+          href="https://tim.cgmatane.qc.ca/projet-4/2022/webjam/eq7/webjam%202022/
         
-                                                                                                                ">
+                                                                                                                                                                                    ">
           <svg
             class="svg-hover transition: .2s; /* Animation */ sm:w-h-14 md:w-h-16 lg:h-2w-20 h-11 w-11 transform sm:h-14 md:h-16 lg:w-20 xl:h-24 xl:w-24"
             viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -62,41 +63,84 @@
       Galerie d'images</h2>
 
 
+    <div class="hidden md:flex">
 
-    <section class="overflow-hidden text-neutral-700">
-      <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
-        <div class="-m-1 flex flex-wrap md:-m-2">
-          <div class="flex w-1/2 flex-wrap">
-            <div class="w-1/2 p-1 md:p-2">
-              <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                src="\images\webjam\webjam6.jpg" />
+
+
+      <section class="overflow-hidden    text-neutral-700">
+        <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
+          <div class="-m-1 flex flex-wrap md:-m-2">
+            <div class="flex w-1/2 flex-wrap">
+              <div class="w-1/2 p-1 md:p-2">
+                <img alt="gallery"
+                  class="block h-full   transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 rounded-lg   duration-300  w-full  object-cover object-center"
+                  src="\images\webjam\webjam6.jpg" />
+              </div>
+              <div class="w-1/2 p-1 md:p-2">
+                <img alt="gallery"
+                  class="block h-full   transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 rounded-lg   duration-300  w-full  object-cover object-center"
+                  src="\images\webjam\webjam5.jpg" />
+              </div>
+              <div class="w-full p-1 md:p-2">
+                <img alt="gallery"
+                  class="block h-full   transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 rounded-lg   duration-300  w-full  object-cover object-center"
+                  src="\images\webjam\webjam.jpg" />
+              </div>
             </div>
-            <div class="w-1/2 p-1 md:p-2">
-              <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                src="\images\webjam\webjam5.jpg" />
-            </div>
-            <div class="w-full p-1 md:p-2">
-              <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                src="\images\webjam\webjam.jpg" />
-            </div>
-          </div>
-          <div class="flex w-1/2 flex-wrap">
-            <div class="w-full p-1 md:p-2">
-              <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                src="\images\webjam\webjam2.jpg" />
-            </div>
-            <div class="w-1/2 p-1 md:p-2">
-              <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                src="\images\webjam\webjam3.jpg" />
-            </div>
-            <div class="w-1/2 p-1 md:p-2">
-              <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
-                src="\images\webjam\webjam4.jpg" />
+            <div class="flex w-1/2 flex-wrap">
+              <div class="w-full p-1 md:p-2">
+                <img alt="gallery"
+                  class=" block h-full   transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 rounded-lg   duration-300  w-full  object-cover object-center"
+                  src="\images\webjam\webjam2.jpg" />
+              </div>
+              <div class="w-1/2 p-1 md:p-2">
+                <img alt="gallery"
+                  class="block h-full   transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 rounded-lg   duration-300  w-full  object-cover object-center"
+                  src="\images\webjam\webjam3.jpg" />
+              </div>
+              <div class="w-1/2 p-1 md:p-2">
+                <img alt="gallery"
+                  class="block h-full   transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 rounded-lg   duration-300  w-full  object-cover object-center"
+                  src="\images\webjam\webjam4.jpg" />
+              </div>
             </div>
           </div>
         </div>
+      </section>
+
+    </div>
+
+
+    <div class="flex md:hidden  container mx-auto">
+      <div class="grid-cols-1 px-16 my-6 space-y-5   lg:space-y-0 lg:grid lg:gap-3  ">
+        <div class="w-full ">
+          <img class="rounded-lg" src="\images\webjam\webjam6.jpg" alt="image">
+        </div>
+
+        <div class="w-full ">
+          <img class="rounded-lg" src="\images\webjam\webjam4.jpg" alt="image">
+        </div>
+
+        <div class="w-full ">
+          <img class="rounded-lg" src="\images\webjam\webjam5.jpg" alt="image">
+        </div>
+
+        <div class="w-full ">
+          <img class="rounded-lg" src="\images\webjam\webjam.jpg" alt="image">
+        </div>
+        <div class="w-full ">
+          <img class="rounded-lg" src="\images\webjam\webjam3.jpg" alt="image">
+        </div>
+        <div class="w-full ">
+          <img class="rounded-lg" src="\images\webjam\webjam2.jpg" alt="image">
+        </div>
+        <div class="w-full ">
+          <img class="rounded-lg" src="\images\webjam\webjam6.jpg" alt="image">
+        </div>
       </div>
-    </section>
+    </div>
+
+
 
 
 
@@ -184,7 +228,7 @@
         </a>
 
         <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                              "
+                                                                                                                                                                                  "
           target="_blank">
           <li>
             <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -196,7 +240,7 @@
         </a>
 
         <a href="https://www.behance.net/valentinsaraiva
-                                                                                                              "
+                                                                                                                                                                                  "
           target="_blank">
           <li>
             <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
