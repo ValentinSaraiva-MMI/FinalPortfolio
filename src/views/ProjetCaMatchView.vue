@@ -18,7 +18,7 @@
         <a
           href="https://camatch.aurelierunser.fr/
         
-                                                                                                                                                                                                                                                                                                              ">
+                                                                                                                                                                                                                                                                                                                                        ">
           <svg
             class="svg-hover transition: .2s; /* mr-4 md:mr-0 Animation */  sm:w-[4.6rem] sm:h-[4.6rem]   md:w-16  lg:h-20    h-11  w-11 transform   md:h-16 lg:w-20 xl:h-24 xl:w-24"
             viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -145,37 +145,47 @@
 
     <div class="grid grid-cols-3  items-center  sm:grid-cols-3 md:grid-cols-3    lg:mx-40        justify-items-center">
       <div>
-        <cardComponent class="fill-white text-white" nom="Html 5" image="images/icons-competences/html.svg" />
+        <cardComponent class="fill-white text-white   w-16 sm:w-[6rem]  md:w-auto " nom="Html 5"
+          image="images/icons-competences/html.svg" />
       </div>
 
       <div>
-        <cardComponent class="fill-white text-white" nom="CSS 3" image="images/icons-competences/css.svg" />
+        <cardComponent class="fill-white text-white   w-16 sm:w-[6rem]  md:w-auto " nom="CSS 3"
+          image="images/icons-competences/css.svg" />
       </div>
 
       <div>
-        <cardComponent class="fill-white text-white" nom="JavaScript" image="images/icons-competences/js.svg" />
+        <cardComponent class="fill-white text-white   w-16 sm:w-[6rem]  md:w-auto " nom="JavaScript"
+          image="images/icons-competences/js.svg" />
       </div>
 
       <div>
-        <cardComponent class="fill-white text-white" nom="figma" image="images/icons-competences/figma.svg" />
+        <cardComponent class="fill-white text-white   w-16 sm:w-[6rem]  md:w-auto " nom="figma"
+          image="images/icons-competences/figma.svg" />
       </div>
 
       <div>
-        <cardComponent class="fill-white text-white" nom="firebase " image="images/icons-competences/firebase.svg" />
+        <cardComponent class="fill-white text-white    w-16 sm:w-[6rem]  md:w-auto   " nom="firebase "
+          image="images/icons-competences/firebase.svg" />
       </div>
     </div>
 
-    <h1
-      class="ml-[6vw] mt-[5vh] text-left font-montserrat text-3xl font-medium text-white md:mr-7 md:text-right md:text-3xl lg:text-4xl xl:text-5xl">
-      Collaborateur
-    </h1>
-    <div class="mt-5 md:ml-[75%] ">
-      <p class="mx-2md:mx-3    inline font-montserrat font-medium text-white md:text-center md:text-xl">
-        Runser
-        Aurélie</p>
-      <p class="mx-2 inline    font-montserrat font-medium text-white md:mx-3 md:text-right md:text-xl">
-        Eccher Agathe</p>
+    <div class="md:mr-7 ml-[6vw]">
+
+
+      <h1
+        class="  mt-[5vh] text-left font-montserrat text-3xl font-medium text-white  md:text-right md:text-3xl lg:text-4xl xl:text-5xl">
+        Collaborateur
+      </h1>
+      <div class="mt-5  text-left    md:text-align-end md:text-right ">
+        <p class="   inline font-montserrat font-medium text-white  md:text-right md:text-xl">
+          Runser
+          Aurélie</p>
+        <p class=" inline font-montserrat font-medium text-white  md:text-right md:text-xl">
+          Eccher Agathe</p>
+      </div>
     </div>
+
   </div>
 
   <div class="md:mt-50 ml-[10%] mt-7 xl:mt-60">
@@ -230,7 +240,8 @@
         </a>
 
         <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                " target="_blank">
+                                                                                                                          "
+          target="_blank">
           <li>
             <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -241,7 +252,8 @@
         </a>
 
         <a href="https://www.behance.net/valentinsaraiva
-                                                                                                " target="_blank">
+                                                                                                                          "
+          target="_blank">
           <li>
             <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path

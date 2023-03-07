@@ -19,7 +19,7 @@
       <div class="ml-8">
         <a href="http://tpwordpress.valentin-saraiva.fr/
         
-                                  ">
+                                    ">
           <svg
             class=" svg-hover transition: .2s; /* mr-4 md:mr-0 Animation */  sm:w-[4.6rem] sm:h-[4.6rem]   md:w-16  lg:h-20    h-11  w-11 transform   md:h-16 lg:w-20 xl:h-24 xl:w-24"
             viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -72,7 +72,7 @@
       </div>
 
       <div>
-        <cardComponent class="fill-white text-white       w-16 sm:w-[6rem]  md:w-auto  " nom="Avada Website Builder"
+        <cardComponent class="fill-white text-white      w-16 sm:w-[6rem]  md:w-auto  " nom="Avada Website Builder"
           image="images/icons-competences/avada.svg" />
       </div>
     </div>
@@ -129,7 +129,7 @@
         </a>
 
         <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                " target="_blank">
+                                  " target="_blank">
           <li>
             <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -140,7 +140,7 @@
         </a>
 
         <a href="https://www.behance.net/valentinsaraiva
-                                " target="_blank">
+                                  " target="_blank">
           <li>
             <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path

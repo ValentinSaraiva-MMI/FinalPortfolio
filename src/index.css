@@ -17,6 +17,11 @@ body {
 
 }
 
+
+.text-align-end {
+  text-align: end;
+}
+
 .disparait {
   display: none;
 }
