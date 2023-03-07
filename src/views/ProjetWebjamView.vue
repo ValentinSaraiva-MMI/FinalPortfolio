@@ -18,7 +18,7 @@
       <div class="ml-10">
         <a href="https://tim.cgmatane.qc.ca/projet-4/2022/webjam/eq7/webjam%202022/
         
-                                                                          ">
+                                                                                                                ">
           <svg
             class="svg-hover transition: .2s; /* Animation */ sm:w-h-14 md:w-h-16 lg:h-2w-20 h-11 w-11 transform sm:h-14 md:h-16 lg:w-20 xl:h-24 xl:w-24"
             viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -55,18 +55,62 @@
       </p>
     </div>
 
+
+
+    <h2
+      class="ml-[6vw] mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh]  font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
+      Galerie d'images</h2>
+
+
+
+    <section class="overflow-hidden text-neutral-700">
+      <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
+        <div class="-m-1 flex flex-wrap md:-m-2">
+          <div class="flex w-1/2 flex-wrap">
+            <div class="w-1/2 p-1 md:p-2">
+              <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                src="\images\webjam\webjam6.jpg" />
+            </div>
+            <div class="w-1/2 p-1 md:p-2">
+              <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                src="\images\webjam\webjam5.jpg" />
+            </div>
+            <div class="w-full p-1 md:p-2">
+              <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                src="\images\webjam\webjam.jpg" />
+            </div>
+          </div>
+          <div class="flex w-1/2 flex-wrap">
+            <div class="w-full p-1 md:p-2">
+              <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                src="\images\webjam\webjam2.jpg" />
+            </div>
+            <div class="w-1/2 p-1 md:p-2">
+              <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                src="\images\webjam\webjam3.jpg" />
+            </div>
+            <div class="w-1/2 p-1 md:p-2">
+              <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                src="\images\webjam\webjam4.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
     <h2
       class="ml-[6vw] mt-[8vh]  md:mt-[10vh]  sm:mt-[8vh]   2xl:mt[20vh]  xl:mt-[18vh] lg:mt-[12vh]   font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
       Outils utilisés</h2>
 
     <div class=" grid grid-cols-3  items-center  sm:grid-cols-3 md:grid-cols-3    lg:mx-40        justify-items-center ">
       <div>
-        <cardComponent class="fill-white text-white" nom="Unity"
-          image="src/components/icons/icons-competences/unity.svg" />
+        <cardComponent class="fill-white text-white" nom="Unity" image="images/icons-competences/unity.svg" />
       </div>
 
       <div>
-        <cardComponent class="fill-white text-white" nom="C#" image="src/components/icons/icons-competences/csharp.svg" />
+        <cardComponent class="fill-white text-white" nom="C#" image="images/icons-competences/csharp.svg" />
       </div>
     </div>
 
@@ -75,7 +119,7 @@
 
 
       <h1
-        class="     mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh]  ml-[6vw]   text-left font-montserrat text-3xl font-medium text-white  md:text-right md:text-3xl lg:text-4xl xl:text-5xl">
+        class="     mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh]     text-left font-montserrat text-3xl font-medium text-white  md:text-right md:text-3xl lg:text-4xl xl:text-5xl">
         Collaborateur
       </h1>
       <div class="mt-5  text-left    md:text-align-end md:text-right">
@@ -140,7 +184,8 @@
         </a>
 
         <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                        " target="_blank">
+                                                                                                              "
+          target="_blank">
           <li>
             <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -151,7 +196,8 @@
         </a>
 
         <a href="https://www.behance.net/valentinsaraiva
-                                                                        " target="_blank">
+                                                                                                              "
+          target="_blank">
           <li>
             <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
