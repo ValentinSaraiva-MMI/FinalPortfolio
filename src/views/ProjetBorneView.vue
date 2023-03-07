@@ -2,7 +2,8 @@
   <div class="mt-[11.6vh] ml-[2vh] mr-[2vh]   md:ml-[7.6vh] lg:ml-[7.6vh] xl:ml-[11.6vh]">
     <div class="flex columns-3 items-center">
       <div>
-        <h1 class="font-montserrat text-4xl font-medium text-white md:text-[3.2em] lg:text-[3.5em] xl:text-[4.913em]">
+        <h1
+          class="font-montserrat text-4xl font-medium text-white md:text-[3.2em] custome-line-height lg:text-[3.5em] xl:text-[4em]">
           Borne de commande Musée
         </h1>
         <p class="text-lg text-white md:mt-4 lg:mt-6 lg:text-lg xl:mt-10 mt-1 xl:text-2xl">Intégration, UX design &
@@ -19,7 +20,7 @@
       <div class="ml-10">
         <a href="https://tim.cgmatane.qc.ca/projet-4/2022/tp1/eq1/
         
-                                                                                                    ">
+                                                                                                                  ">
           <svg
             class="svg-hover transition: .2s; /* Animation */ sm:w-h-14 md:w-h-16 lg:h-2w-20 h-11 w-11 transform sm:h-14 md:h-16 lg:w-20 xl:h-24 xl:w-24"
             viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +59,7 @@
       Panier fonctionnel
     </h2>
 
-    <video class="ml-[0%] mt-11 md:ml-[0%] lg:ml-[40%] xl:ml-[50%]" autoplay>
+    <video class="mx-auto mt-11 md:mx-auto lg:ml-[40%] xl:ml-[50%]" autoplay>
       <source src="/images/mockup/Museedumonde.mp4" type="video/mp4" />
       Votre naviguateur ne supporte pas ce type de format video.
     </video>
@@ -156,7 +157,8 @@
         </a>
 
         <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                  " target="_blank">
+                                                                                                                "
+          target="_blank">
           <li>
             <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -167,7 +169,8 @@
         </a>
 
         <a href="https://www.behance.net/valentinsaraiva
-                                                                                                  " target="_blank">
+                                                                                                                "
+          target="_blank">
           <li>
             <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path

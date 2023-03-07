@@ -26,6 +26,10 @@ body {
   display: none;
 }
 
+.custome-line-height {
+  line-height: 1;
+}
+
 
 
 .hover-underline-animation {
@@ -307,6 +311,11 @@ nav {
   .camatchimage {
     width: 20%;
   }
+
+  .cursor {
+    display: none;
+  }
+
 
 }
 
