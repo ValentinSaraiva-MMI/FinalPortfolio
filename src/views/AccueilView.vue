@@ -1,7 +1,10 @@
 
  
 <template>
-  <!--    
+  <p class="text-white mt-5 ml-6 font-montserrat text-sm hidden md:flex">FR , Paris - {{ getParisTime() }}</p>
+
+
+<!--    
   <div class="w-11/12 mx-auto">
     <h4 class="text-white font-montserrat text-4xl  font-medium text-right ">Bonjour je suis </h4>
     <div class="text-right leading-8    flex justify-between">
@@ -37,12 +40,14 @@
         </div>
 
               </div>
-                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          -->
+                                                                                                                                                                                                                                                                                                  </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                -->
   <div class="flex xl:h-[100vh]  columns-2 pb-0 sm:columns-3 md:columns-3 lg:columns-3 xl:columns-3 2xl:columns-3">
     <div class="m-0 mt-20 h-[100%] basis-1/2 flex-col md:ml-5 xl:mt-40">
       <div class="relative ml-3 w-[80%] sm:ml-0">
         <h4 class="text-left text-4xl text-white   lg:text-right">Bonjour je suis</h4>
+
+
 
         <h3 class="text-left text-5xl font-bold text-white sm:text-5xl md:text-7xl lg:text-right lg:text-8xl">VALENTIN
         </h3>
@@ -88,7 +93,7 @@
 
     <div class="hidden flex-col items-center justify-evenly px-0 py-0 sm:flex md:flex lg:flex xl:flex 2xl:flex">
       <a href="https://github.com/ValentinSaraiva-MMI 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "
         target="_blank">
         <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
@@ -98,7 +103,7 @@
       </a>
 
       <a href="https://www.instagram.com/valentin_saraiva/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "
         target="_blank">
         <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -113,7 +118,7 @@
         </svg>
       </a>
       <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "
         target="_blank">
         <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -122,7 +127,7 @@
         </svg>
       </a>
       <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "
         target="_blank">
         <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -353,8 +358,8 @@
         <projetcard date="2021" titre="Olympe" tache="Intégration & UX design "
           image="/images/mockup/mochupolympe2.webp" />
 
-                                                                                                            </router-link>
-                                                                                                             -->
+                                                                                                                                                                                                                                  </router-link>
+                                                                                                                                                                                                                                   -->
 
 
       <router-link to="/montainclimber">
@@ -375,7 +380,7 @@
 
         <projetborne date="2022"
           titre="Borne de commande
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Musée  "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Musée  "
           tache="Intégration, UX design & Développement " image="/images/mockup/borne.webp" />
       </router-link>
 
@@ -384,8 +389,8 @@
 
 
         <projetcard date="2022" titre="Velotaf" tache="Intégration WordPress" image="/images/mockup/velotaf.webp" />
-                                                                                                            </router-link>
-                                                                                                            -->
+                                                                                                                                                                                                                                  </router-link>
+                                                                                                                                                                                                                                  -->
 
       <router-link to="/webjam">
 
@@ -399,7 +404,7 @@
 
         <projetcard date="2022" titre="First Stone"
           tache="Développement, level design, sound design,   
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Ux design "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Ux design "
           image="/images/mockup/game.png" />
       </router-link>
 
@@ -481,7 +486,7 @@
 
 
           <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "
             target="_blank">
             <li>
               <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -493,7 +498,7 @@
           </a>
 
           <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "
             target="_blank">
             <li>
               <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -588,8 +593,8 @@
               </a>
             </ul>
                 </div>
-                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        -->
+                                                                                                                                                                                                                                                                                                      </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              -->
 
     <!-- <div>
 
@@ -654,7 +659,7 @@
           </div>
 
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </div> -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </div> -->
       <RouterLink class="my-auto" to="/">
         <logoValentin class=" w-12 md:ml-5 md:w-14 " />
       </RouterLink>
@@ -662,6 +667,7 @@
 
     </div>
   </div>
+
 
 
 
@@ -805,14 +811,24 @@
           </RouterLink>
                   <p class="text-center font-montserrat text-base font-medium text-white">© Valentin Saraiva. 2022</p>
          
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    -->
 </template>
 
 
 
 <script>
+/*
+setInterval(() => {
+  this.parisTime = this.getParisTime();
+}, 60000);
+*/
 
 
+
+
+
+
+import moment from 'moment';
 
 import Typed from 'typed.js';
 
@@ -828,16 +844,34 @@ import projetcamatch from "../components/projetcamatch.vue";
 
 /*
 import {
-    getFirestore,
-    collecton,
-    doc,
-    getDocs,
-    addDoc
-  } from 'https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js'
+  getFirestore,
+  collecton,
+  doc,
+  getDocs,
+  addDoc
+} from 'https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js'
 
-  */
+
+import {
+  getStorage,
+  ref,
+  getDownloadURL,
+  uploadString,
+} from 'https://www.gstatic.com/firebasejs/9.7.0/firebase-storage.js'
+
+*/
+
 
 export default {
+
+  name: "AccueilView",
+  data() {
+    return {
+      Competences: []
+    }
+  },
+
+
   components: {
     guillement,
     cardComponent,
@@ -858,7 +892,73 @@ export default {
     };
     var typed = new Typed('#typed', options);
     var typed = new Typed('#typed2', options);
-  }
+
+
+    this.getCompetences();
+
+
+  },
+
+  /*
+    data() {
+      return {
+        heureAffichee: '',
+      };
+    },
+  
+    */
+
+  methods: {
+
+    getParisTime() {
+      return moment().utcOffset("+01:00").format("HH:mm");
+    },
+
+    /*
+        async getCompetences() {
+          const firestore = getFirestore();
+    
+          const dbComp = collection(firestore, "Competences");
+    
+          const q = query(dbPart, orderBy('nom', 'asc'));
+          await onSnapshot(q, (snapshot) => {
+            this.listeCompetence = snapshot.docs.map(doc => (
+              { id: doc.id, ...doc.data() }
+            ))
+    
+            this.listeCompetence.forEach(function (Competences) {
+              const storage = getStorage();
+    
+    
+            }
+    
+    
+    
+    
+    
+          })
+        },
+    */
+
+    /*
+         
+            afficherHeure() {
+              var date = new Date(); // obtenir la date actuelle
+              var heure = date.getHours(); // obtenir l'heure actuelle
+              var minutes = date.getMinutes(); // obtenir les minutes actuelles
+        
+              // ajouter un zéro devant le nombre de minutes si elles sont inférieures à 10
+              if (minutes < 10) {
+                minutes = "0" + minutes;
+              }
+        
+              // construire l'heure au format 24 heures
+              this.heureAffichee = heure + ":" + minutes;
+        
+              // actualiser l'heure toutes les minutes
+              setTimeout(this.afficherHeure, 60000); // appel récursif de la fonction toutes les minutes
+            },  */
+  },
 
 
 };
