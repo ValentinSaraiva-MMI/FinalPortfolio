@@ -3,6 +3,14 @@ section h2 {
     color: #4b656d;
 }
 
+
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
 .preloader {
     position: fixed;
     top: 0;
