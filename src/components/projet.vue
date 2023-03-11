@@ -15,7 +15,7 @@
     </div>
 
     <img
-      class="my-auto h-auto max-h-96 w-[80%] md:max-h-[21rem] lg:max-h-[18rem]    self-center md:w-[85%] lg:w-[85%] xl:w-[85%]"
+      class="my-auto h-auto max-h-96 w-[80%] md:max-h-[21rem] lg:max-h-[18rem]    self-center md:w-[75%] lg:w-[75%] xl:w-[75%]"
       :src="image" alt="image de projets" />
     <a class="viewmore">
       <span class="tag">Voir projet</span>

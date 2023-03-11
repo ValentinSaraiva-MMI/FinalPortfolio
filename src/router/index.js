@@ -10,6 +10,7 @@ import ProjetRampageView from "../views/ProjetRampageView.vue";
 import ProjetBorneView from "../views/ProjetBorneView.vue";
 import ProjetWebjamView from "../views/ProjetWebjamView.vue";
 import testView from "../views/testView.vue";
+import ProjetFirstStoneView from "../views/ProjetFirstStoneView.vue";
 
 import Page404View from "../views/Page404View.vue";
 
@@ -27,7 +28,7 @@ const router = createRouter({
     { path: "/borne", name: "ProjetBorneView", component: ProjetBorneView },
     { path: "/test", name: "testView", component: testView },
     { path: "/webjam", name: "ProjetWebjamView", component: ProjetWebjamView },
-
+    { path: "/firststone", name: "ProjetFirstStoneView", component: ProjetFirstStoneView },
     //page 404
     {
       path: "/:catchAll(.*)",

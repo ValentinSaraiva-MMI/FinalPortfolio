@@ -19,7 +19,7 @@
         <a
           href="https://festivalrampage.valentin-saraiva.fr/
         
-                                                                                                                                                                                                                                          ">
+                                                                                                                                                                                                                                            ">
           <svg
             class="svg-hover transition: .2s; /* mr-4 md:mr-0 Animation */  sm:w-[4.6rem] sm:h-[4.6rem]   md:w-16  lg:h-20    h-11  w-11 transform   md:h-16 lg:w-20 xl:h-24 xl:w-24"
             viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,7 +34,7 @@
 
   </div>
   <div class="mt-24  bg-[#141414]   py-12">
-    <img src="/public/images/rampagelaptop.webp" class="mx-auto w-[85%]" alt="image acceuil rampage" />
+    <img src="/public/images/rampagelaptop.webp" class="mx-auto w-[75%]" alt="image acceuil rampage" />
   </div>
 
   <div class="mt-[11.6vh] ml-[2vh]  mr-[2vh] md:ml-[7.6vh] lg:ml-[7.6vh] xl:ml-[11.6vh]">
@@ -165,7 +165,7 @@
 
 
           <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                                                                                                                                                                                                                                                                "
+                                                                                                                                                                                                                                                                                                                                                                                                                                  "
             target="_blank">
             <li>
               <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -177,7 +177,7 @@
           </a>
 
           <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                                                                                                                                                                                                                                                                "
+                                                                                                                                                                                                                                                                                                                                                                                                                                  "
             target="_blank">
             <li>
               <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
