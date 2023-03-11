@@ -21,7 +21,7 @@
                 <a
                     href="https://festivalrampage.valentin-saraiva.fr/
         
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ">
                     <svg class="svg-hover transition: .2s; /* mr-4 md:mr-0 Animation */  sm:w-[4.6rem] sm:h-[4.6rem]   md:w-16  lg:h-20    h-11  w-11 transform   md:h-16 lg:w-20 xl:h-24 xl:w-24"
                         viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -171,7 +171,7 @@
                 <div>
 
 
-                    <img class="w-[50%]" src="public\images\celest.webp" alt="">
+                    <img class="w-[50%]" src="/images/celest.webp" alt="">
                     <figcaption class="flex text-white">An elephant at sunset</figcaption>
                     <figcaption class="flex text-white">An BAAAAAN at sunset</figcaption>
                 </div>
@@ -179,13 +179,13 @@
                 <div>
 
 
-                    <img class="w-[50%]" src="public\images\HollowknightPS.png" alt="">
+                    <img class="w-[50%]" src="/images/HollowknightPS.png" alt="">
                     <figcaption class="flex text-white">An elephant at sunset</figcaption>
                     <figcaption class="flex text-white">An BAAAAAN at sunset</figcaption>
                 </div>
 
                 <div>
-                    <img class="w-[28%] " src="public\images\mario.png" alt="">
+                    <img class="w-[28%] " src="/images/mario.png" alt="">
                     <div class="mt-10">
 
 
@@ -300,7 +300,7 @@
 
 
                         <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
                             target="_blank">
                             <li>
                                 <svg width="28" height="27" viewBox="0 0 28 27" fill="none"
@@ -313,7 +313,7 @@
                         </a>
 
                         <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
                             target="_blank">
                             <li>
                                 <svg width="37" height="24" viewBox="0 0 37 24" fill="none"
