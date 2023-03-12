@@ -1,6 +1,6 @@
 <template>
   <figure
-    class=" m-4   flex  h-[45vh] w-[55vw]   flex-col   bg-[#141414] md:mx-auto md:h-[56vh] md:w-[35vw] lg:ml-0 lg:h-[59vh] lg:w-[29.8vw] xl:ml-0 xl:h-[59vh] xl:w-[29.8vw]">
+    class=" m-4   flex  h-[60vh] w-[55vw]   flex-col   bg-[#141414] md:mx-auto md:h-[56vh] md:w-[35vw] lg:ml-0 lg:h-[59vh] lg:w-[29.8vw] xl:ml-0 xl:h-[59vh] xl:w-[29.8vw]">
     <div class="ml-4 mt-4">
       <p class="font-lato text-base font-light text-white md:text-base lg:text-base xl:text-base">
         {{ date }}
@@ -15,7 +15,7 @@
     </div>
 
     <img
-      class="my-auto   h-[45%] max-h-96 w-[38%] self-center sm:h-[55%] sm:w-[25%] md:h-[55%] md:w-[35%] lg:h-[53%] lg:w-[45%] xl:h-[55%] xl:w-[40%]"
+      class="my-auto   h-[40%] max-h-96 w-[38%] self-center sm:h-[55%] sm:w-[25%] md:h-[55%] md:w-[35%] lg:h-[53%] lg:w-[45%] xl:h-[55%] xl:w-[35%]"
       :src="image" alt="image de projets" />
     <a class="viewmore">
       <span class="tag">Voir projet</span>

@@ -2,7 +2,7 @@
   <div class="flex justify-center mt-12 mb-2">
 
     <div class="relative w-max">
-      <img :src="image" class="  h-[100px] w-[125.2px] sm:h-[115px] md:h-[144px] lg:h-[180px]" alt="image logiciel" />
+      <img :src="image" class="  h-[70px] w-[87.5px] sm:h-[115px] md:h-[144px] lg:h-[180px]" alt="image logiciel" />
 
     </div>
   </div>

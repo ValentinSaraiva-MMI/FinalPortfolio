@@ -18,9 +18,10 @@
       </div>
 
       <div class="ml-10">
-        <a href="https://tim.cgmatane.qc.ca/projet-4/2022/tp1/eq1/
+        <a
+          href="https://tim.cgmatane.qc.ca/projet-4/2022/tp1/eq1/
         
-                                                                                                                  ">
+                                                                                                                                                                                                                                                                                  ">
           <svg
             class="svg-hover transition: .2s; /* Animation */ sm:w-h-14 md:w-h-16 lg:h-2w-20 h-11 w-11 transform sm:h-14 md:h-16 lg:w-20 xl:h-24 xl:w-24"
             viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,7 +35,7 @@
     </div>
 
     <!--  mx-auto mt-20 w-[90%] md:w-[50%] lg:w-[50%] xl:w-[50%] -->
-    <img src="/public/images/mockup/bornes.png" class="mx-auto mt-20 w-[80%] md:w-[50%] lg:w-[50%] xl:w-[50%]"
+    <img src="/public/images/mockup/bornes.png" class="mx-auto mt-20 w-[60%] md:w-[45%] lg:w-[45%] xl:w-[45%]"
       alt="Borne de commande  " />
 
     <h2
@@ -54,20 +55,84 @@
       </p>
     </div>
 
+
+    <div
+      class="2xl:mt-44   md:mt-[10vh] mt-[10vh] sm:mt-[8vh]  lg:flex  2xl:mt[20vh]  xl:mt-[18vh] lg:columns-2 md:items-center lg:mt-[12vh] md:ml-12">
+      <div>
+
+
+        <video class=" w-[55%]  lg:w-[100%]    mx-auto  break-after-column rounded-md mb-3 " autoplay loop
+          src="images/mockup/Museedumonde.mp4" type="video/mp4" alt="Video borne de commande "></video>
+      </div>
+
+
+      <section class=" ml-[6vw] mt-4 lg:mt-0  md:ml-[4vw] lg:ml-[5vw] xl:ml-[6vw]">
+        <div>
+
+
+          <h2
+            class=" font-montserrat text-3xl  mt-0 sm:mt-[8vh] md:mt-[6vh] lg:mt-0    break-words font-medium text-white  md:text-4xl  lg:text-4xl  xl:text-5xl">
+            Panier fonctionnel
+          </h2>
+
+          <p class="text-white mt-6 text-lg  break-words ">Le site web intégré à la borne de commande possède un
+            calculateur permettant d'afficher un grand ensemble de valeurs relatives aux commandes, telle que la valeur
+            totale du panier avec et sans taxe, le prix d'un article à l'unité etc.
+          </p>
+          <p class="text-white mt-6 text-lg  break-words ">Mon travail apporté à cette partie du projet m'a permis de
+            revoir le framework Javascript <span>Alpine JS</span> et de découvrir avec nombreuse possibilité de gestion
+            d'événement.
+            De plus cela m'a permis de perfectionner mes compétences en Javascript </p>
+
+
+
+        </div>
+      </section>
+
+
+    </div>
+
+
+    <!--   
     <h2
       class="ml-[6vw]     mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh]   font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
       Panier fonctionnel
     </h2>
+  
+
+
+
 
     <video class="mx-auto mt-11 md:mx-auto lg:ml-[40%] xl:ml-[50%]" autoplay>
       <source src="/images/mockup/Museedumonde.mp4" type="video/mp4" />
       Votre naviguateur ne supporte pas ce type de format video.
-    </video>
+    </video> -->
+
+    <div class="ml-[6vw]">
+      <h2
+        class="    mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh]      l   2xl:mt[20vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
+        Palette de couleur </h2>
+
+      <img class="   w-[90%]  mt-[2vh]  sm:mt-[4vh] md:mt-[5vh] lg:mt-[6vh] xl:mt-[8vh] 2xl:mt[10vh]     "
+        src="/images/colorborne2.png" alt="couleur site ">
+
+
+      <p class="text-white mt-6 text-lg">
+        Pour les couleurs de ce site, nous avons ôté pour du rose ainsi que du brun
+        clair afin de donner une ambiance calme et moderne choisit pour correspondant à la direction artistique générale
+        de notre musée factice</p>
+
+    </div>
+
+
+
+
 
     <h2
       class="  mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh]     ml-[6vw]     l   2xl:mt[20vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
       Outils utilisés</h2>
 
+    <!-- 
     <div class=" grid grid-cols-3  items-center  sm:grid-cols-3 md:grid-cols-3    lg:mx-40        justify-items-center">
       <div>
         <cardComponent class="fill-white text-white   w-16 sm:w-[6rem]  md:w-auto " nom="Html 5"
@@ -89,48 +154,96 @@
           image="images/icons-competences/figma.svg" />
       </div>
     </div>
+  -->
+
+
+
+    <div
+      class="  grid grid-cols-3   items-center  sm:grid-cols-3 md:grid-cols-3    lg:mx-40        justify-items-center        ">
+      <div class="relative">
+        <cardComponent class="fill-white w-16 sm:w-[6rem]  md:w-auto  text-white" nom="Html 5"
+          image="images/icons-competences/html.svg" />
+        <p class=" text-center font-lato text-[18px] md:text-2xl text-white ">Html 5 </p>
+      </div>
+
+      <div class="relative">
+        <cardComponent class="fill-white w-16 sm:w-[6rem]  md:w-auto text-white" nom="CSS 3"
+          image="images/icons-competences/css.svg" />
+        <p class=" text-center font-lato text-[18px] md:text-2xl text-white ">Css 3 </p>
+      </div>
+
+      <div class="relative">
+        <cardComponent class="fill-white w-16 sm:w-[6rem]  md:w-auto text-white" nom="Alpine.js"
+          image="images/icons-competences/alpine.svg" />
+        <p class=" text-center font-lato text-[18px] md:text-2xl text-white ">Alpine.js </p>
+      </div>
+      <div class="relative">
+        <cardComponent class="fill-white w-16 sm:w-[6rem]  md:w-auto text-white" nom="Figma"
+          image="images/icons-competences/figma.svg" />
+        <p class=" text-center font-lato text-[18px] md:text-2xl text-white ">Figma </p>
+      </div>
+
+
+
+
+    </div>
 
     <div class="md:mr-7 ml-[6vw]">
+
+
       <h1
-        class="mt-[5vh] text-left font-montserrat text-3xl font-medium text-white  md:text-right md:text-3xl lg:text-4xl xl:text-5xl">
+        class="   mt-[5vh] text-left font-montserrat text-3xl font-medium text-white  md:text-right md:text-3xl lg:text-4xl xl:text-5xl">
         Collaborateur
       </h1>
-      <div class="mt-5   text-align-end       text-left    md:text-align-end md:text-right  ">
-        <p class="inline font-montserrat font-medium text-white  md:text-right md:text-xl mr-3">Pierre Liger</p>
-        <p class="inline font-montserrat font-medium text-white  md:text-right md:text-xl mr-2">Afcharides Botsy
-        </p>
-        <p class="inline font-montserrat font-medium text-white  md:text-right md:text-xl">Emy Cartalas</p>
+
+      <div class="mt-5       text-left    md:text-align-end md:text-right ">
+        <p class="    text-left inline font-montserrat font-medium text-white  md:text-right md:text-xl">
+          Pierre Liger</p>
+
+        <p class="  text-left inline font-montserrat font-medium text-white  md:text-right md:text-xl">
+          Afcharides Botsy</p>
+
+
+
       </div>
     </div>
 
+    <hr class=" mx-auto lg:ml-[30%] mt-24 flex h-1 lg:w-2/3 w-[90%] mb-8 lg:mb-3  border-t-[#808080]" />
+    <div class="flex w-full flex-col mt-10  md:mt-0 lg:items-end">
+      <!-- ANCIEN  w-[90%] lg:w-[60%] lg:columns-2 lg:pt-10-->
+      <!-- ACTUEL flex w-64 gap-14  -->
 
-  </div>
-  <div class="md:mt-50 ml-[10%] mt-7 xl:mt-60">
-    <hr class="mx-auto mt-5 mb-5 flex h-1 w-2/3 border-t-[#808080] md:mt-20" />
 
-    <div class="md:columns-3">
-      <div class="break-after-column"></div>
+      <div class=" w-[80%] md:w-[30%]  lg:columns-2 lg:pt-10 ">
+        <ul class="flex flex-col">
+          <li class="hover-underline-animation py-2 ">
+            <router-link to="/">Accueil</router-link>
+          </li>
+          <li class="hover-underline-animation py-2 ">
+            <router-link to="/apropos">À propos </router-link>
+          </li>
+          <li class="hover-underline-animation py-2 ">
+            <router-link to="/">Projets</router-link>
+          </li>
 
-      <div class="break-after-column"></div>
 
-      <nav class="w-[90%] lg:w-[60%] lg:columns-2 lg:pt-10">
-        <ul class="text-white">
-          <a href="/">
-            <li class="py-2">Accueil</li>
-          </a>
-          <li class="py-2"><router-link to="/apropos">À propos</router-link></li>
-
-          <a href="/">
-            <li class="py-2">Projets</li>
-          </a>
-
-          <li class="py-2"><router-link to="/contact">Contact</router-link></li>
-          <a href="../public/document/CV.pdf" download>
-            <li class="py-2">CV</li>
-          </a>
         </ul>
-      </nav>
-      <ul class="st mt-11 flex w-[60%] flex-row justify-between">
+        <ul class="flex flex-col">
+          <a href="../public/document/CV.pdf" download>
+            <li class="py-2 text-white">CV</li>
+          </a>
+          <li class="hover-underline-animation py-2 ">
+            <router-link to="/">Contact</router-link>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+
+    <div class="flex mb-5 md:mb-5 ml-0 lg:ml-[70%]  xl:ml-[70%]  md:w-[30%] lg:w-[30%] xl:w-[30%]    ">
+
+      <ul class=" mt-11 flex w-[80%] flex-row  justify-between">
         <a href="https://github.com/ValentinSaraiva-MMI" target="_blank">
           <li>
             <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -156,8 +269,9 @@
           </li>
         </a>
 
+
         <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
           target="_blank">
           <li>
             <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -169,7 +283,7 @@
         </a>
 
         <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
           target="_blank">
           <li>
             <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -179,8 +293,20 @@
             </svg>
           </li>
         </a>
+
+
       </ul>
+
+
+
     </div>
+
+
+    <RouterLink class="my-auto" to="/">
+      <logoValentin class=" w-12 md:ml-5 md:w-14 " />
+    </RouterLink>
+    <p class="text-center font-montserrat text-base font-medium text-white">© Valentin Saraiva. 2022</p>
+
   </div>
 </template>
 
