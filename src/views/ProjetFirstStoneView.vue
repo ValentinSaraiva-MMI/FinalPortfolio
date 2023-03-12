@@ -18,10 +18,10 @@
             </div>
 
             <div class="ml-8">
-                <a
-                    href="https://festivalrampage.valentin-saraiva.fr/
+                <a target="_blank"
+                    href="https://mega.nz/file/l7ZDHDgI#CGBZ1fjaXi38qAv3T2zfhimYPBiEHXpBwbEbmF2xhDI 
         
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ">
                     <svg class="svg-hover transition: .2s; /* mr-4 md:mr-0 Animation */  sm:w-[4.6rem] sm:h-[4.6rem]   md:w-16  lg:h-20    h-11  w-11 transform   md:h-16 lg:w-20 xl:h-24 xl:w-24"
                         viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -48,7 +48,7 @@
         <div class="mt-[11.6vh] ml-[2vh]  mr-[2vh] md:ml-[7.6vh] lg:ml-[7.6vh] xl:ml-[11.6vh]">
 
             <h2
-                class="ml-[6vw] mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh] sm:text-teal-300 md:text-red-600 lg:text-blue-700 xl:text-purple-600 2xl:text-green-500 font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
+                class="ml-[6vw] mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh]  font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
                 À
                 propos</h2>
 
@@ -205,7 +205,7 @@
                 <div class="relative">
                     <cardInspiration class="fill-white text-white" nom="" image="/images/celest.webp" />
                     <p class=" text-center font-lato text-[18px] sm:text-xl    text-white ">Celeste © </p>
-                    <p class=" text-center font-lato text-base sm:text-xl mt-2   text-white">Pour l'ambiance de son univer
+                    <p class=" text-center font-lato text-base sm:text-xl mt-2   text-white">Pour l'ambiance de son univers
                     </p>
                 </div>
 
@@ -221,7 +221,7 @@
                 <div class="relative">
                     <cardInspiration class="fill-white text-white" nom="" image="/images/mario.webp" />
                     <p class=" text-center font-lato text-[18px] sm:text-xl  text-white ">Super Mario © </p>
-                    <p class=" text-center font-lato text-base sm:text-xl mt-2   text-white">Pour la réalisation des niveau
+                    <p class=" text-center font-lato text-base sm:text-xl mt-2   text-white">Pour la réalisation des niveaux
                     </p>
 
 
@@ -319,7 +319,7 @@
 
 
                         <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
                             target="_blank">
                             <li>
                                 <svg width="28" height="27" viewBox="0 0 28 27" fill="none"
@@ -332,7 +332,7 @@
                         </a>
 
                         <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
                             target="_blank">
                             <li>
                                 <svg width="37" height="24" viewBox="0 0 37 24" fill="none"
