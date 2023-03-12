@@ -21,7 +21,7 @@
                 <a target="_blank"
                     href="https://mega.nz/file/l7ZDHDgI#CGBZ1fjaXi38qAv3T2zfhimYPBiEHXpBwbEbmF2xhDI 
         
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ">
                     <svg class="svg-hover transition: .2s; /* mr-4 md:mr-0 Animation */  sm:w-[4.6rem] sm:h-[4.6rem]   md:w-16  lg:h-20    h-11  w-11 transform   md:h-16 lg:w-20 xl:h-24 xl:w-24"
                         viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -228,6 +228,12 @@
 
                 </div>
 
+
+
+
+
+
+
             </div>
 
 
@@ -239,16 +245,23 @@
             <!-- ancien : max-w-8xl mx-32 mt-24 grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(20rem,1fr))] md:ml-20 lg:ml-32 xl:ml-40 -->
 
             <div
-                class=" grid grid-cols-3  items-center  sm:grid-cols-3 md:grid-cols-3    lg:mx-40        justify-items-center       ">
-                <div>
+                class=" grid grid-cols-3   items-center  sm:grid-cols-3 md:grid-cols-3    lg:mx-40        justify-items-center       ">
+                <div class="relative">
                     <cardComponent class="fill-white w-16 sm:w-[6rem]  md:w-auto  text-white" nom="Html 5"
                         image="images/icons-competences/unity.svg" />
+                    <p class=" text-center font-lato text-[18px] md:text-2xl text-white ">Unity</p>
                 </div>
 
-                <div>
+                <div class="relative">
                     <cardComponent class="fill-white w-16 sm:w-[6rem]  md:w-auto text-white" nom="CSS 3"
                         image="images/icons-competences/csharp.svg" />
-                </div>
+                    <p class=" text-center font-lato text-[18px] md:text-2xl text-white ">C#</p>
+                </div>md:text-2xl
+
+
+
+
+
             </div>
 
 
@@ -319,7 +332,7 @@
 
 
                         <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
                             target="_blank">
                             <li>
                                 <svg width="28" height="27" viewBox="0 0 28 27" fill="none"
@@ -332,7 +345,7 @@
                         </a>
 
                         <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
                             target="_blank">
                             <li>
                                 <svg width="37" height="24" viewBox="0 0 37 24" fill="none"
