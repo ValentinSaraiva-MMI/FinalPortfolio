@@ -3,7 +3,7 @@
     <div class="bg-black text-white   ">
 
       <div class="image404-container    ">
-        <img src="images/IMG-2537.jpg" alt="Image de la page 404">
+        <img src="/images/405.jpg" alt="image page 404">
         <h1 class="text-[60px]    hidden md:flex z-111 text-white absolute top-[28%]  leading-3 left-[10%] ">Oups...</h1>
         <h2 class="  text-lg   hidden md:flex z-111 text-white absolute top-[38%] tracking-wide left-[10%]">Je finis mon
           café et
