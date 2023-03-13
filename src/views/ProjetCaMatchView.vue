@@ -18,7 +18,7 @@
         <a
           href="https://camatch.aurelierunser.fr/
         
-                                                                                                                                                                                                                                                                                                                                                                                                            ">
+                                                                                                                                                                                                                                                                                                                                                                                                                                              ">
           <svg
             class="svg-hover transition: .2s; /* mr-4 md:mr-0 Animation */  sm:w-[4.6rem] sm:h-[4.6rem]   md:w-16  lg:h-20    h-11  w-11 transform   md:h-16 lg:w-20 xl:h-24 xl:w-24"
             viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,7 +59,7 @@
 
     <div class="mt-16 md:columns-2">
       <img
-        class="mx-auto w-[65%]  h-[20%] sm:h-[20%] sm:w-[60%] md:h-[100%] md:w-[80%] lg:h-[60%] lg:w-[60%] xl:ml-[13%] xl:h-[100%]"
+        class="mx-auto w-[38%]  h-[20%] sm:h-[20%] sm:w-[38%] md:h-[95%] md:w-[60%] lg:h-[85%] lg:w-[60%] xl:ml-[13%] xl:h-[100%]"
         src="/images/donneeCamatch.webp" alt="donnée dynamique ça match" />
 
 
@@ -181,7 +181,7 @@
 
     <h2
       class="
-                                                                       ml-[6vw] mt-[8vh]  md:mt-[10vh]  sm:mt-[8vh]   2xl:mt[20vh]  xl:mt-[18vh] lg:mt-[12vh]   font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
+                                                                                                         ml-[6vw] mt-[8vh]  md:mt-[10vh]  sm:mt-[8vh]   2xl:mt[20vh]  xl:mt-[18vh] lg:mt-[12vh]   font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
       Outils utilisés</h2>
 
     <div class="grid grid-cols-3  items-center  sm:grid-cols-3 md:grid-cols-3    lg:mx-40        justify-items-center">
@@ -297,7 +297,7 @@
 
 
         <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
           target="_blank">
           <li>
             <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -309,7 +309,7 @@
         </a>
 
         <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              "
           target="_blank">
           <li>
             <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
