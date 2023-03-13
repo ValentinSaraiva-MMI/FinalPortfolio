@@ -298,6 +298,32 @@ nav {
 
 
 
+/* page 404 */
+
+.image404-container {
+  position: relative;
+  overflow: hidden;
+  width: 95%;
+  height: 85vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image404-container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 90%;
+  object-fit: cover;
+  z-index: 0;
+  filter: blur(1px);
+  filter: grayscale(5%);
+}
+
+
+
 
 @media (max-width: 640px) {
   nav {
@@ -324,7 +350,24 @@ nav {
   }
 
 
+  .image404-container {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  .image404-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 95%;
+    object-fit: cover;
+  }
 
 
 
