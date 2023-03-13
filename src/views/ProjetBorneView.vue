@@ -21,7 +21,7 @@
         <a
           href="https://tim.cgmatane.qc.ca/projet-4/2022/tp1/eq1/
         
-                                                                                                                                                                                                                                                                                                                        ">
+                                                                                                                                                                                                                                                                                                                              ">
           <svg
             class="svg-hover transition: .2s; /* Animation */ sm:w-h-14 md:w-h-16 lg:h-2w-20 h-11 w-11 transform sm:h-14 md:h-16 lg:w-20 xl:h-24 xl:w-24"
             viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -39,7 +39,7 @@
       alt="Borne de commande  " />
 
     <h2
-      class="ml-[6vw] mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh] sm:text-teal-300 md:text-red-600 lg:text-blue-700 xl:text-purple-600 2xl:text-green-500 font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
+      class="ml-[6vw] mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh]    font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
       À
       propos</h2>
     <div class="mt-6 gap-10 md:columns-2 lg:gap-16 xl:gap-20">
@@ -120,7 +120,7 @@
       <p class="text-white mt-6 text-lg w-[90%]">
         Pour les couleurs de ce site, nous avons opté pour du rose ainsi que du brun
         clair afin de donner une ambiance calme et moderne choisit pour correspondant à la direction artistique générale
-        de notre musée factice</p>
+        de notre musée factice.</p>
 
     </div>
 
@@ -132,29 +132,7 @@
       class="  mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh]     ml-[6vw]     l   2xl:mt[20vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
       Outils utilisés</h2>
 
-    <!-- 
-    <div class=" grid grid-cols-3  items-center  sm:grid-cols-3 md:grid-cols-3    lg:mx-40        justify-items-center">
-      <div>
-        <cardComponent class="fill-white text-white   w-16 sm:w-[6rem]  md:w-auto " nom="Html 5"
-          image="images/icons-competences/html.svg" />
-      </div>
 
-      <div>
-        <cardComponent class="fill-white text-white   w-16 sm:w-[6rem]  md:w-auto " nom="CSS 3"
-          image="images/icons-competences/css.svg" />
-      </div>
-
-      <div>
-        <cardComponent class="fill-white text-white   w-16 sm:w-[6rem]  md:w-auto " nom="Alpine.js"
-          image="images/icons-competences/alpine.svg" />
-      </div>
-
-      <div>
-        <cardComponent class="fill-white text-white   w-16 sm:w-[6rem]  md:w-auto " nom="figma"
-          image="images/icons-competences/figma.svg" />
-      </div>
-    </div>
-  -->
 
 
 
@@ -271,7 +249,7 @@
 
 
         <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "
           target="_blank">
           <li>
             <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -283,7 +261,7 @@
         </a>
 
         <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "
           target="_blank">
           <li>
             <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">

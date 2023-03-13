@@ -18,7 +18,7 @@
         <a
           href="https://camatch.aurelierunser.fr/
         
-                                                                                                                                                                                                                                                                                                                                                ">
+                                                                                                                                                                                                                                                                                                                                                                                                            ">
           <svg
             class="svg-hover transition: .2s; /* mr-4 md:mr-0 Animation */  sm:w-[4.6rem] sm:h-[4.6rem]   md:w-16  lg:h-20    h-11  w-11 transform   md:h-16 lg:w-20 xl:h-24 xl:w-24"
             viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@
       alt="Mockup Montain Climber " />
 
     <h2
-      class=" ml-[6vw] mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh] sm:text-teal-300 md:text-red-600 lg:text-blue-700 xl:text-purple-600 2xl:text-green-500 font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
+      class=" ml-[6vw] mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh]   font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
       À
       propos</h2>
     <div class="mt-6 gap-10 md:columns-2 lg:gap-16 xl:gap-20">
@@ -137,85 +137,139 @@
           </clipPath>
         </defs>
       </svg>
+
+
+
+
+
     </div>
+
+
+    <p class="text-white mt-6   ml-[6vw] w-[85%]        text-xl  ">La grande particularité de ce projet, est avant tout
+      qu'il a été
+      ma premiere experience en developpement Back-end
+      Grâce à ce dernier j'ai pu découvrir la manière dont les sites internet faisaient pour rendre dynamiques des données
+      avec la plateforme de développement de google "Firebase". <br>
+      Je ne suis certainement pas devenus un maitre du back end avec ce projet, mais il aura eu le mérite de poser la
+      première pierre dans ce domaine de connaissances.
+
+    </p>
+
+
+
+
+    <div class="ml-[6vw] ">
+      <h2
+        class="    mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh]      l   2xl:mt[20vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
+        Palette de couleur </h2>
+
+      <img class="   w-[90%]  mt-[2vh]  sm:mt-[4vh] md:mt-[5vh] lg:mt-[6vh] xl:mt-[8vh] 2xl:mt[10vh]     "
+        src="/images/colorcamatch.png" alt="couleur site ">
+
+
+      <p class="text-white mt-6 text-lg w-[90%]">
+        Pour les couleurs de "ça match", nous avons choisi en couleur principale un blanc pur car il permet un contraste
+        important avec les autres couleurs ce qui permet une lecture facile du contenu.
+        Concernant la couleur secondaire nous avons choisi une verte menthe qui rappelle la nature et l'extérieur, car
+        cela
+        faisait partie des valeurs porté par notre site.
+      </p>
+
+    </div>
+
+
 
     <h2
       class="
-           ml-[6vw] mt-[8vh]  md:mt-[10vh]  sm:mt-[8vh]   2xl:mt[20vh]  xl:mt-[18vh] lg:mt-[12vh]   font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
+                                                                       ml-[6vw] mt-[8vh]  md:mt-[10vh]  sm:mt-[8vh]   2xl:mt[20vh]  xl:mt-[18vh] lg:mt-[12vh]   font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
       Outils utilisés</h2>
 
     <div class="grid grid-cols-3  items-center  sm:grid-cols-3 md:grid-cols-3    lg:mx-40        justify-items-center">
       <div>
         <cardComponent class="fill-white text-white   w-16 sm:w-[6rem]  md:w-auto " nom="Html 5"
           image="images/icons-competences/html.svg" />
+        <p class=" text-center font-lato text-[18px] md:text-2xl text-white ">Html 5 </p>
       </div>
 
       <div>
         <cardComponent class="fill-white text-white   w-16 sm:w-[6rem]  md:w-auto " nom="CSS 3"
           image="images/icons-competences/css.svg" />
+        <p class=" text-center font-lato text-[18px] md:text-2xl text-white ">Css 3 </p>
       </div>
 
       <div>
         <cardComponent class="fill-white text-white   w-16 sm:w-[6rem]  md:w-auto " nom="JavaScript"
           image="images/icons-competences/js.svg" />
+        <p class=" text-center font-lato text-[18px] md:text-2xl text-white ">JavaScript </p>
       </div>
 
       <div>
         <cardComponent class="fill-white text-white   w-16 sm:w-[6rem]  md:w-auto " nom="figma"
           image="images/icons-competences/figma.svg" />
+        <p class=" text-center font-lato text-[18px] md:text-2xl text-white ">Figma </p>
       </div>
 
       <div>
         <cardComponent class="fill-white text-white    w-16 sm:w-[6rem]  md:w-auto   " nom="firebase "
           image="images/icons-competences/firebase.svg" />
+        <p class=" text-center font-lato text-[18px] md:text-2xl text-white ">Firebase </p>
       </div>
     </div>
 
-    <div class="md:mr-7 ml-[6vw]">
+    <div class="md:mr-7 mt-[8vh] ml-[6vw]">
 
 
       <h1
-        class="  ml-[6vw] mt-[5vh] text-left font-montserrat text-3xl font-medium text-white md:mr-7 md:text-right md:text-3xl lg:text-4xl xl:text-5xl">
+        class="   mt-[5vh] text-left font-montserrat text-3xl font-medium text-white  md:text-right md:text-3xl lg:text-4xl xl:text-5xl ">
         Collaborateur
       </h1>
 
       <div class="mt-5  text-left    md:text-align-end md:text-right ">
-        <p class="   inline font-montserrat font-medium text-white  md:text-right md:text-xl">
+        <p class="     text-left inline font-montserrat font-medium text-white  md:text-right md:text-xl">
           Runser
           Aurélie</p>
-        <p class=" inline font-montserrat font-medium text-white  md:text-right md:text-xl">
+        <p class="  text-left inline font-montserrat font-medium text-white  md:text-right md:text-xl">
           Eccher Agathe</p>
       </div>
     </div>
 
-  </div>
 
-  <div class="md:mt-50 ml-[10%] mt-7 xl:mt-60">
-    <hr class="mx-auto mt-5 mb-5 flex h-1 w-2/3 border-t-[#808080] md:mt-20" />
+    <hr class=" mx-auto lg:ml-[30%] mt-24 flex h-1 lg:w-2/3 w-[90%] mb-8 lg:mb-3  border-t-[#808080]" />
+    <div class="flex w-full flex-col mt-10  md:mt-0 lg:items-end">
+      <!-- ANCIEN  w-[90%] lg:w-[60%] lg:columns-2 lg:pt-10-->
+      <!-- ACTUEL flex w-64 gap-14  -->
 
-    <div class="md:columns-3">
-      <div class="break-after-column"></div>
 
-      <div class="break-after-column"></div>
+      <div class=" w-[80%] md:w-[30%]  lg:columns-2 lg:pt-10 ">
+        <ul class="flex flex-col">
+          <li class="hover-underline-animation py-2 ">
+            <router-link to="/">Accueil</router-link>
+          </li>
+          <li class="hover-underline-animation py-2 ">
+            <router-link to="/apropos">À propos </router-link>
+          </li>
+          <li class="hover-underline-animation py-2 ">
+            <router-link to="/">Projets</router-link>
+          </li>
 
-      <nav class="w-[90%] lg:w-[60%] lg:columns-2 lg:pt-10">
-        <ul class="text-white">
-          <a href="/">
-            <li class="py-2">Accueil</li>
-          </a>
-          <li class="py-2"><router-link to="/apropos">À propos</router-link></li>
 
-          <a href="/">
-            <li class="py-2">Projets</li>
-          </a>
-
-          <li class="py-2"><router-link to="/contact">Contact</router-link></li>
-          <a href="../public/document/CV.pdf" download>
-            <li class="py-2">CV</li>
-          </a>
         </ul>
-      </nav>
-      <ul class="st mt-11 flex w-[60%] flex-row justify-between">
+        <ul class="flex flex-col">
+          <a href="../public/document/CV.pdf" download>
+            <li class="py-2 text-white">CV</li>
+          </a>
+          <li class="hover-underline-animation py-2 ">
+            <router-link to="/">Contact</router-link>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+
+    <div class="flex mb-5 md:mb-5 ml-0 lg:ml-[70%]  xl:ml-[70%]  md:w-[30%] lg:w-[30%] xl:w-[30%]    ">
+
+      <ul class=" mt-11 flex w-[80%] flex-row  justify-between">
         <a href="https://github.com/ValentinSaraiva-MMI" target="_blank">
           <li>
             <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -241,8 +295,9 @@
           </li>
         </a>
 
+
         <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                  "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "
           target="_blank">
           <li>
             <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -254,7 +309,7 @@
         </a>
 
         <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                  "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "
           target="_blank">
           <li>
             <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -264,8 +319,21 @@
             </svg>
           </li>
         </a>
+
+
       </ul>
+
+
+
     </div>
+
+
+    <RouterLink class="my-auto" to="/">
+      <logoValentin class=" w-12 md:ml-5 md:w-14 " />
+    </RouterLink>
+    <p class="text-center font-montserrat text-base font-medium text-white">© Valentin Saraiva. 2022</p>
+
+
   </div>
 </template>
 
