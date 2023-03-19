@@ -29,8 +29,10 @@ const router = createRouter({
     { path: "/test", name: "testView", component: testView },
     { path: "/webjam", name: "ProjetWebjamView", component: ProjetWebjamView },
     { path: "/firststone", name: "ProjetFirstStoneView", component: ProjetFirstStoneView },
-    
+
     //page 404
+
+
     {
       path: "/:catchAll(.*)",
       name: "Page404View",

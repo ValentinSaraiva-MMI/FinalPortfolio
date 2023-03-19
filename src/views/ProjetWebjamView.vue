@@ -1,5 +1,8 @@
 <template>
   <div class="mt-[11.6vh]  mr-[2vh]  ml-[2vh] md:ml-[7.6vh] lg:ml-[7.6vh] xl:ml-[11.6vh]">
+
+
+
     <div class="flex columns-3 items-center">
       <div>
         <h1
@@ -19,7 +22,7 @@
         <a
           href="https://tim.cgmatane.qc.ca/projet-4/2022/webjam/eq7/webjam%202022/
         
-                                                                                                                                                                                                ">
+                                                                                                                                                                                                      ">
           <svg
             class="svg-hover transition: .2s; /* Animation */ sm:w-h-14 md:w-h-16 lg:h-2w-20 h-11 w-11 transform sm:h-14 md:h-16 lg:w-20 xl:h-24 xl:w-24"
             viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +38,7 @@
     <img src="/public/images/mockup/webjam.webp" class="mx-auto mt-20  w-[85%]  md:w-[55%]" alt="Webjam 2022 " />
 
     <h2
-      class="ml-[6vw] mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh] sm:text-teal-300 md:text-red-600 lg:text-blue-700 xl:text-purple-600 2xl:text-green-500 font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
+      class="ml-[6vw] mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh]   font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
       À
       propos</h2>
     <div class="mt-6 gap-10 md:columns-2 lg:gap-16 xl:gap-20">
@@ -174,34 +177,44 @@
         <p class=" inline font-montserrat font-medium text-white mx-2 text-lg  md:text-right md:text-xl">Pierre Liger</p>
       </div>
     </div>
-  </div>
 
-  <div class="md:mt-50 ml-[10%] mt-7 xl:mt-60">
-    <hr class="mx-auto mt-5 mb-5 flex h-1 w-2/3 border-t-[#808080] md:mt-20" />
 
-    <div class="md:columns-3">
-      <div class="break-after-column"></div>
+    <hr class=" mx-auto lg:ml-[30%] mt-24 flex h-1 lg:w-2/3 w-[90%] mb-8 lg:mb-3  border-t-[#808080]" />
+    <div class="flex w-full flex-col mt-10  md:mt-0 lg:items-end">
+      <!-- ANCIEN  w-[90%] lg:w-[60%] lg:columns-2 lg:pt-10-->
+      <!-- ACTUEL flex w-64 gap-14  -->
 
-      <div class="break-after-column"></div>
 
-      <nav class="w-[90%] lg:w-[60%] lg:columns-2 lg:pt-10">
-        <ul class="text-white">
-          <a href="/">
-            <li class="py-2">Accueil</li>
-          </a>
-          <li class="py-2"><router-link to="/apropos">À propos</router-link></li>
+      <div class=" w-[80%] md:w-[30%]  lg:columns-2 lg:pt-10 ">
+        <ul class="flex flex-col">
+          <li class="hover-underline-animation py-2 ">
+            <router-link to="/">Accueil</router-link>
+          </li>
+          <li class="hover-underline-animation py-2 ">
+            <router-link to="/apropos">À propos </router-link>
+          </li>
+          <li class="hover-underline-animation py-2 ">
+            <router-link to="/">Projets</router-link>
+          </li>
 
-          <a href="/">
-            <li class="py-2">Projets</li>
-          </a>
 
-          <li class="py-2"><router-link to="/contact">Contact</router-link></li>
-          <a href="../public/document/CV.pdf" download>
-            <li class="py-2">CV</li>
-          </a>
         </ul>
-      </nav>
-      <ul class="st mt-11 flex w-[60%] flex-row justify-between">
+        <ul class="flex flex-col">
+          <a href="../public/document/CV.pdf" download>
+            <li class="py-2 text-white">CV</li>
+          </a>
+          <li class="hover-underline-animation py-2 ">
+            <router-link to="/contact">Contact</router-link>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+
+    <div class="flex mb-5 md:mb-5 ml-0 lg:ml-[70%]  xl:ml-[70%]  md:w-[30%] lg:w-[30%] xl:w-[30%]    ">
+
+      <ul class=" mt-11 flex w-[80%] flex-row  justify-between">
         <a href="https://github.com/ValentinSaraiva-MMI" target="_blank">
           <li>
             <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -227,8 +240,9 @@
           </li>
         </a>
 
+
         <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                              "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "
           target="_blank">
           <li>
             <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -240,7 +254,7 @@
         </a>
 
         <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                              "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "
           target="_blank">
           <li>
             <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -250,8 +264,20 @@
             </svg>
           </li>
         </a>
+
+
       </ul>
+
+
+
     </div>
+
+
+    <RouterLink class="my-auto" to="/">
+      <logoValentin class=" w-12 md:ml-5 md:w-14 " />
+    </RouterLink>
+    <p class="text-center font-montserrat text-base font-medium text-white">© Valentin Saraiva. 2022</p>
+
   </div>
 </template>
 
