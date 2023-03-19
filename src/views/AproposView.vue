@@ -2,7 +2,8 @@
   <div class="bg-black">
 
     <div class="mt-[11.6vh] ml-[2vh]  mr-[2vh] md:ml-[7.6vh] lg:ml-[7.6vh] xl:ml-[11.6vh]">
-      <h1 class="mt-20 ml-28 text-4xl text-white md:text-[5.313rem]">À propos</h1>
+      <h1 class="mt-20 ml-28 text-4xl     text-white md:text-[5.313rem]">
+        À propos</h1>
       <p class="mt-8 text-center font-montserrat text-2xl text-[#414141] md:mt-24">Quelque mots pour me decrire</p>
 
       <div class="flex columns-3 pb-0">
@@ -21,46 +22,121 @@
       <div class="mt-28"></div>
 
       <div class="block sm:inline-block">
-        <img class="mx-auto w-[80%] md:mx-0 md:w-[100%]" src="/public/images/valentin3.webp" alt="image de moi" />
+        <img class="mx-auto  w-[80%]  md:w-[100%]" src="/public/images/valentin3.webp" alt="image de moi" />
         <figcaption class="font-lato text-base font-light text-white">© Jean-Christophe Liberge et Kévin Espinoza-Rivière
         </figcaption>
       </div>
 
-      <div class="mt-5 block sm:inline-block lg:mt-0">
-        <img class="mx-auto ml-[7.7vw] mb-[15%] w-[80%] md:mx-0 md:ml-1 md:w-[100%] lg:ml-12" src="/images/Group92.png"
+      <div class="mt-5 block lg:inline-block    lg:mt-0">
+        <img class="   mb-[15%] w-[80%]   md:mt-28 md:w-[60%] lg:w-[100%] md:mx-auto  lg:ml-5" src="/images/Group92.png"
           alt="logo valentin" />
       </div>
 
 
       <div class="ml-[6vw] ">
         <h2
-          class="    mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh]      l   2xl:mt[20vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
+          class="    mt-[8vh] sm:mt-[8vh] md:mt-[10vh] lg:mt-[12vh] xl:mt-[18vh] 2xl:mt[20vh]       2xl:mt[20vh] font-montserrat text-3xl font-medium text-white md:text-3xl lg:text-4xl xl:text-5xl">
           Mon parcours </h2>
 
         <img class="  md:w-[80%] w-[90%]  mt-[2vh]  sm:mt-[4vh] md:mt-[5vh] lg:mt-[6vh] xl:mt-[8vh] 2xl:mt[10vh]     "
           src="/images/presentation2.jpg" alt="couleur site ">
 
 
-        <p class="text-white mt-6 text-base md:text-xl  w-[90%] md:w-[80%]">
+        <p class="text-white mt-6 text-base md:text-lg lg:text-xl  w-[90%] md:w-[80%]">
           Possesseur d'un bac <span class="font-bold">STI2D </span> (sciences et technologies de l'industrie et du
           développement durable), en spécialité
           SIN (systèmes d'information et numérique) il est pour moi
           depuis quelques années
-          une evidence de vouloir travailler dans le domaine de l'evolutions technologique.
+          une évidence de vouloir travailler dans le domaine de l'évolutions technologique. </p>
 
-          Voila pourquoi j'ai decidé à l'issue de mes années lycee de m'insérer dans un BUT MMI (métiers du multimédia et
-          de l'internet) et de me spécialiser dans le domaine du developpement.
+        <p class="text-white mt-6 text-base md:text-lg lg:text-xl  w-[90%] md:w-[80%]">
+          Voilà pourquoi j'ai deécidé à l'issue de mes années lycée de m'insérer dans un <span class="font-bold">BUT
+            MMI</span> (métiers du multimédia et
+          de l'internet) et de me spécialiser dans le domaine du développement. </p>
 
-          A l'isue de ce diplome, que je devrai obtenir d'ici un an, j'envisage encore une pousuite d'étude afin de
-          béneficier d'un dossier scolaire solide pour démarrr ma carriere dans le milieux.
-          De nombreux cursus m'intéresse de ce fait mon choix n'est pour le moment pas rendus definitif, mais il est
-          certain que cela s'articulera autours du web et/ou du multimédia
+        <p class="text-white mt-6 text-base md:text-lg lg:text-xl  w-[90%] md:w-[80%]">
+          À l'issue de ce diplôme, que je devrai obtenir d'ici un an, j'envisage encore une poursuite d'étude afin de
+          bénéficier d'un dossier scolaire solide pour démarrer ma carrière dans le milieu.
+          De nombreux cursus m'intéressent de ce fait mon choix n'est pour le moment pas rendus définitif, mais il est
+          certain que cela s'articulera autour du <span class="font-bold">web </span> et/ou du <span class="font-bold">
+            multimédia</span>
 
 
         </p>
 
       </div>
 
+
+
+      <div
+        class="    md:mt-[10vh] mt-[10vh] sm:mt-[8vh]  xl:flex  2xl:mt[20vh]  xl:mt-[18vh] xl:columns-2 md:items-center lg:mt-[12vh] md:ml-12">
+        <img class="w-[80%]  lg:mb-8 lg:w-[80%] xl:w-[50%]    mx-auto  break-after-column    mb-3 "
+          src="public\images\presentationeden.png" alt="responsive design rampage festival" />
+        <section class=" ml-[6vw] mt-4 lg:mt-0  md:ml-[4vw] lg:ml-[5vw] xl:ml-[6vw]">
+          <div>
+            <h2
+              class="font-montserrat text-3xl  mt-0 sm:mt-[8vh] md:mt-[6vh] lg:mt-0    break-words font-medium text-white  md:text-4xl  lg:text-4xl  xl:text-5xl">
+              Mes ambitions
+            </h2>
+
+            <p class="text-white mt-6   break-words    text-base md:text-xl "> La filière du multimédia et du
+              numérique est très vaste et
+              offre la possibilité de maitriser énormément de domaine de compétence.
+            </p>
+
+
+            <p class="text-white mt-6   break-words   text-base md:text-xl ">Parmi tous ces domaines, ceux dont je
+              déciderai de maitriser
+              pour construire ma carrière professionnelle, sont principalement liés au <span
+                class="font-bold">développement web</span> et à la <span class="font-bold"> conception
+                d'interface utilisateur</span>
+              afin de réaliser des application et site web moderne et utiles. <br>
+            </p>
+
+
+            <p class="text-white mt-6   break-words  text-base md:text-xl  ">Néanmoins je ne souhaite pas me
+              renfermer à un seul domaine
+              de prédilection car le métier de <span class="font-bold">game designer</span> est également une filière qui
+              ne cesse de m'intéresser et
+              pour laquelle j'ambitionne. <br>
+            </p>
+
+            <p class="text-white mt-6   break-words   text-base md:text-xl ">Évidemment je sais que ces deux
+              domaines sont vastes et que
+              pour les maitriser individuellement cela prend du temps et demande de l'effort;
+              mais je considère que pour travailler dans un domaine qui me correspond peu importe les efforts à fournir
+              je me dois de les faire.<br>
+            </p>
+
+
+          </div>
+
+
+        </section>
+
+      </div>
+
+      <div class="w-[80%] mx-auto">
+
+
+        <h2
+          class=" md:mt-[10vh] mt-[10vh] sm:mt-[8vh]    2xl:mt[20vh]  xl:mt-[18vh]     font-montserrat text-3xl text-center   font-medium text-white  md:text-4xl  lg:text-4xl  xl:text-5xl">
+          Ce n'est que le début
+        </h2>
+
+        <p class="text-white mt-6  text-center text-base md:text-xl "> Vous aurez pu découvrir en ces quelques phrases
+          l'avenir que je m'imagine dans le domaine du multimédia, pour le moment je ne suis qu'un étudiant de deuxième
+          années, mais d'ici peu de temps je compte bien gravir les échelons dans le monde professionnel, tout en
+          réalisant ce que j'aime faire.
+
+        </p>
+
+        <p class="text-white mt-6  text-center text-base md:text-xl">Je vous remercie d'avoir fait un tour sur mon
+          portfolio
+          et d'avoir lu ces quelques lignes pour en apprendre plus sur moi. </p>
+        <p class="text-white mt-6  text-center text-base md:text-xl">J'espère vous revoir ici très vite et si vous voulez
+          suivre mes futurs travaux, le plus simple est de me suivre sur mes divers médias sociaux.</p>
+      </div>
 
 
 
@@ -144,7 +220,7 @@
 
 
           <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "
             target="_blank">
             <li>
               <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -156,7 +232,7 @@
           </a>
 
           <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            "
             target="_blank">
             <li>
               <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
