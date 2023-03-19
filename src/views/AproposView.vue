@@ -41,7 +41,7 @@
           src="/images/presentation2.jpg" alt="couleur site ">
 
 
-        <p class="text-white mt-6 text-xl  w-[80%]">
+        <p class="text-white mt-6 text-base md:text-xl  w-[80%]">
           Possesseur d'un bac <span class="font-bold">STI2D </span> (sciences et technologies de l'industrie et du
           développement durable), en spécialité
           SIN (systèmes d'information et numérique) il est pour moi
@@ -144,7 +144,7 @@
 
 
           <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "
             target="_blank">
             <li>
               <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -156,7 +156,7 @@
           </a>
 
           <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "
             target="_blank">
             <li>
               <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
