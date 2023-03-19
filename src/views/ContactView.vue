@@ -20,93 +20,107 @@
         alt="map Doubs " />
     </a>
 
-    <div class="ml-[6vw]">
-      <h2
-        class="lg:mt-[150px] mt-20 font-montserrat text-5xl font-medium text-white   md:text-6xl lg:text-8xl xl:mt-[300px] 2xl:mt-[300px]">
-        Contact
-      </h2>
+
+    <div class="mt-[11.6vh] ml-[2vh]  mr-[2vh] md:ml-[7.6vh] lg:ml-[7.6vh] xl:ml-[11.6vh]">
+      <div class="ml-[6vw]">
+        <h2
+          class="lg:mt-[150px] mt-20 font-montserrat text-5xl font-medium text-white   md:text-6xl lg:text-8xl xl:mt-[300px] 2xl:mt-[300px]">
+          Contact
+        </h2>
 
 
 
-      <form action="https://api.web3forms.com/submit" class="mr-auto mt-7 ml-auto w-[90%] max-w-screen-xl lg:mt-[67px]"
-        method="POST">
-        <input type="hidden" name="access_key" value="60e7cf85-4b5c-4ee1-ab1f-6cf8fd02b92b" />
+        <form action="https://api.web3forms.com/submit" class="mr-auto mt-7 ml-auto w-[90%] max-w-screen-xl lg:mt-[67px]"
+          method="POST">
+          <input type="hidden" name="access_key" value="60e7cf85-4b5c-4ee1-ab1f-6cf8fd02b92b" />
 
-        <div class="-mx-3 mb-6 flex flex-wrap">
-          <div class="mb-6 w-full px-3 md:mb-0 md:w-1/2">
-            <input type="text" placeholder="Nom "
-              class="form-control mt-2 mb-3 block w-full py-3 px-4 leading-tight text-white" name="nom" required />
+          <div class="-mx-3 mb-6 flex flex-wrap">
+            <div class="mb-6 w-full px-3 md:mb-0 md:w-1/2">
+              <input type="text" placeholder="Nom "
+                class="form-control mt-2 mb-3 block w-full py-3 px-4 leading-tight text-white" name="nom" required />
+            </div>
+
+            <div class="w-full px-3 md:w-1/2">
+              <input type="email" class="form-control mt-2 mb-3 block w-full py-3 px-4 leading-tight text-white"
+                placeholder="Email " name="email" required />
+            </div>
           </div>
 
-          <div class="w-full px-3 md:w-1/2">
-            <input type="email" class="form-control mt-2 mb-3 block w-full py-3 px-4 leading-tight text-white"
-              placeholder="Email " name="email" required />
-          </div>
-        </div>
-
-        <div class="-mx-3 mb-2 flex flex-wrap">
-          <textarea placeholder="Détailles de projet " rows="1" class="form-control mx-3 block w-full p-2.5 text-white"
-            name="message" required></textarea>
-        </div>
-
-        <input type="hidden" name="redirect" value="https://web3forms.com/success" />
-
-        <button
-          class="mt-[8vh] h-10 border-2 border-white px-10 text-lg text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white"
-          type="submit">
-          Envoyer
-        </button>
-        <div class="mt:my-0 mt-10">
-          <div class="mx-5 my-3 inline-block md:mx-[5%] md:my-0">
-            <a class="font-bold text-white" href="mailto:valentinsa0701@gmail.com">
-              <p class="font-bold text-white">Email <span
-                  class="font-light text-white">valentinsaraiva.pro@gmail.com</span></p>
-            </a>
+          <div class="-mx-3 mb-2 flex flex-wrap">
+            <textarea placeholder="Détailles de projet " rows="1" class="form-control mx-3 block w-full p-2.5 text-white"
+              name="message" required></textarea>
           </div>
 
-          <div class="mx-5 my-3 inline-block md:mx-[5%]">
-            <a class="font-bold text-white" href="tel:+33638881975">
-              <p class="font-bold text-white">Téléphone <span class="font-light text-white">+33 6 38 88 19 75</span></p>
-            </a>
-          </div>
+          <input type="hidden" name="redirect" value="https://web3forms.com/success" />
 
-          <div class="mx-5 my-3 inline-block md:mx-[5%]">
-            <a class="font-bold text-white"
-              href="https://www.google.ca/maps/place/25300+Doubs,+France/@46.9321769,6.3445314,14z/data=!3m1!4b1!4m5!3m4!1s0x478dbd2dbd17c7e3:0x7bd189a64a80664b!8m2!3d46.9276!4d6.349001?hl=fr">
-              <p class="font-bold text-white">Adresse <span class="font-light text-white">Doubs, France</span></p>
-            </a>
+          <button
+            class="mt-[8vh] h-10 border-2 border-white px-10 text-lg text-white transition-[color,box-shadow] duration-[400ms,450ms] hover:border-noir hover:text-noir hover:shadow-[inset_14rem_0_0_0] hover:shadow-white"
+            type="submit">
+            Envoyer
+          </button>
+          <div class="mt:my-0 mt-10">
+            <div class="mx-5 my-3 inline-block md:mx-[5%] md:my-0">
+              <a class="font-bold text-white" href="mailto:valentinsa0701@gmail.com">
+                <p class="font-bold text-white">Email <span
+                    class="font-light text-white">valentinsaraiva.pro@gmail.com</span></p>
+              </a>
+            </div>
+
+            <div class="mx-5 my-3 inline-block md:mx-[5%]">
+              <a class="font-bold text-white" href="tel:+33638881975">
+                <p class="font-bold text-white">Téléphone <span class="font-light text-white">+33 6 38 88 19 75</span></p>
+              </a>
+            </div>
+
+            <div class="mx-5 my-3 inline-block md:mx-[5%]">
+              <a class="font-bold text-white"
+                href="https://www.google.ca/maps/place/25300+Doubs,+France/@46.9321769,6.3445314,14z/data=!3m1!4b1!4m5!3m4!1s0x478dbd2dbd17c7e3:0x7bd189a64a80664b!8m2!3d46.9276!4d6.349001?hl=fr">
+                <p class="font-bold text-white">Adresse <span class="font-light text-white">Doubs, France</span></p>
+              </a>
+            </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
-  </div>
 
-  <div class="ml-[10%] mt-7 md:mt-60">
-    <hr class="mx-auto flex h-1 w-2/3 border-t-[#808080] md:mt-20" />
 
-    <div class="md:columns-3">
-      <div class="break-after-column"></div>
 
-      <div class="break-after-column"></div>
+    <hr class=" mx-auto lg:ml-[30%] mt-24 flex h-1 lg:w-2/3 w-[90%] mb-8 lg:mb-3  border-t-[#808080]" />
+    <div class="flex w-full flex-col mt-10  md:mt-0 lg:items-end">
+      <!-- ANCIEN  w-[90%] lg:w-[60%] lg:columns-2 lg:pt-10-->
+      <!-- ACTUEL flex w-64 gap-14  -->
 
-      <nav class="w-[90%] lg:w-[60%] lg:columns-2 lg:pt-10">
-        <ul class="text-white">
-          <a href="/">
-            <li class="py-2">Accueil</li>
-          </a>
-          <li class="py-2"><router-link to="/apropos">À propos</router-link></li>
 
-          <a href="/">
-            <li class="py-2">Projets</li>
-          </a>
+      <div class=" w-[80%] md:w-[30%]  lg:columns-2 lg:pt-10 ">
+        <ul class="flex flex-col">
+          <li class="hover-underline-animation py-2 ">
+            <router-link to="/">Accueil</router-link>
+          </li>
+          <li class="hover-underline-animation py-2 ">
+            <router-link to="/apropos">À propos </router-link>
+          </li>
+          <li class="hover-underline-animation py-2 ">
+            <router-link to="/">Projets</router-link>
+          </li>
 
-          <li class="py-2"><router-link to="/contact">Contact</router-link></li>
-          <a href="../public/document/CV.pdf" download>
-            <li class="py-2">CV</li>
-          </a>
+
         </ul>
-      </nav>
-      <ul class="st mt-11 flex w-[60%] flex-row justify-between">
+        <ul class="flex flex-col">
+          <a href="../public/document/CV.pdf" download>
+            <li class="py-2 text-white">CV</li>
+          </a>
+          <li class="hover-underline-animation py-2 ">
+            <router-link to="/contact">Contact</router-link>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+
+    <div class="flex mb-5 md:mb-5 ml-0 lg:ml-[70%]  xl:ml-[70%]  md:w-[30%] lg:w-[30%] xl:w-[30%]    ">
+
+      <ul class=" mt-11 flex w-[80%] flex-row  justify-between">
         <a href="https://github.com/ValentinSaraiva-MMI" target="_blank">
           <li>
             <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -132,8 +146,10 @@
           </li>
         </a>
 
+
         <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                      " target="_blank">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "
+          target="_blank">
           <li>
             <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -144,7 +160,8 @@
         </a>
 
         <a href="https://www.behance.net/valentinsaraiva
-                                                      " target="_blank">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      "
+          target="_blank">
           <li>
             <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -153,13 +170,20 @@
             </svg>
           </li>
         </a>
+
+
       </ul>
+
+
+
     </div>
+
+
+    <RouterLink class="my-auto" to="/">
+      <logoValentin class=" w-12 md:ml-5 md:w-14 " />
+    </RouterLink>
+    <p class="text-center font-montserrat text-base font-medium text-white">© Valentin Saraiva. 2022</p>
   </div>
-  <RouterLink class="my-auto" to="/">
-    <logoValentin class="ml-5 mt-20 w-14 md:mt-0" />
-  </RouterLink>
-  <p class="text-center font-montserrat text-base font-medium text-white">© Valentin Saraiva. 2022</p>
 </template>
 
 <script>
