@@ -40,8 +40,8 @@
         </div>
 
               </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                      </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                      </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    -->
   <div class="flex xl:h-[100vh]  columns-2 pb-0 sm:columns-3 md:columns-3 lg:columns-3 xl:columns-3 2xl:columns-3">
     <div class="m-0 mt-20 h-[100%] basis-1/2 flex-col md:ml-5 xl:mt-40">
       <div class="relative ml-3 w-[80%] sm:ml-0">
@@ -93,7 +93,7 @@
 
     <div class="hidden flex-col items-center justify-evenly px-0 py-0 sm:flex md:flex lg:flex xl:flex 2xl:flex">
       <a href="https://github.com/ValentinSaraiva-MMI 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
         target="_blank">
         <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd"
@@ -103,7 +103,7 @@
       </a>
 
       <a href="https://www.instagram.com/valentin_saraiva/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
         target="_blank">
         <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -118,7 +118,7 @@
         </svg>
       </a>
       <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
         target="_blank">
         <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -127,7 +127,7 @@
         </svg>
       </a>
       <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
         target="_blank">
         <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -196,6 +196,17 @@
 
 
 
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div v-for="competence in filterByCompetences" :key="competence.id">
+        <div class="flex flex-col justify-center items-center mt-12 mb-2">
+          <img class="h-[70px] w-[87.5px] sm:h-[115px] md:h-[144px] lg:h-[180px]" :src="competence.image"
+            alt="image competence" />
+          <p class="text-center font-lato text-[28px] text-white">{{ competence.nom }}</p>
+        </div>
+      </div>
+    </div>
+
+  <!--  
     <div class="grid grid-cols-1  sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 ">
 
 
@@ -327,6 +338,9 @@
 
     </div>
 
+                    -->
+
+
 
     <div class="mt-24">
       <hr />
@@ -358,8 +372,8 @@
         <projetcard date="2021" titre="Olympe" tache="Intégration & UX design "
           image="/images/mockup/mochupolympe2.webp" />
 
-                                                                                                                                                                                                                                                                                                                                                                      </router-link>
-                                                                                                                                                                                                                                                                                                                                                                       -->
+                                                                                                                                                                                                                                                                                                                                                                                      </router-link>
+                                                                                                                                                                                                                                                                                                                                                                                       -->
 
 
       <router-link to="/montainclimber">
@@ -380,7 +394,7 @@
 
         <projetborne date="2022"
           titre="Borne de commande
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Musée  "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Musée  "
           tache="Intégration, UX design & Développement " image="/images/mockup/borne.webp" />
       </router-link>
 
@@ -389,8 +403,8 @@
 
 
         <projetcard date="2022" titre="Velotaf" tache="Intégration WordPress" image="/images/mockup/velotaf.webp" />
-                                                                                                                                                                                                                                                                                                                                                                      </router-link>
-                                                                                                                                                                                                                                                                                                                                                                      -->
+                                                                                                                                                                                                                                                                                                                                                                                      </router-link>
+                                                                                                                                                                                                                                                                                                                                                                                      -->
 
       <router-link to="/webjam">
 
@@ -404,7 +418,7 @@
 
         <projetcard date="2022" titre="First Stone"
           tache="Développement, level design, sound design   
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Ux design "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Ux design "
           image="/images/mockup/game.png" />
       </router-link>
 
@@ -490,7 +504,7 @@
 
 
         <a href="https://www.linkedin.com/in/valentin-saraiva-mmi/
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
           target="_blank">
           <li>
             <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -503,7 +517,7 @@
         </a>
 
         <a href="https://www.behance.net/valentinsaraiva
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
           target="_blank">
           <li>
             <svg width="37" height="24" viewBox="0 0 37 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -598,8 +612,8 @@
               </a>
             </ul>
                 </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                          </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                          </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  -->
 
   <!-- <div>
 
@@ -664,7 +678,7 @@
           </div>
 
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               </div> -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               </div> -->
     <RouterLink class="my-auto" to="/">
       <logoValentin class=" w-12 md:ml-5 md:w-14 " />
     </RouterLink>
@@ -815,14 +829,30 @@
           </RouterLink>
                   <p class="text-center font-montserrat text-base font-medium text-white">© Valentin Saraiva. 2022</p>
          
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        -->
 </template>
 
 
 
 <script>
+
+
+import { getStorage, ref, getDownloadURL } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-storage.js";
+
 import dayjs from 'dayjs';
 import 'dayjs/locale/fr'; // Importez la localisation française
+
+
+import {
+  getFirestore,
+  collection,
+  doc,
+  getDocs,
+  addDoc,
+  updateDoc,
+  deleteDoc,
+  onSnapshot,
+} from "https://www.gstatic.com/firebasejs/9.17.2/firebase-firestore.js";
 
 
 
@@ -879,7 +909,10 @@ export default {
     return {
       currentTime: moment().format('HH:mm'),
       Competences: [],
-
+      listeCompetences: [],
+      nom: null,
+      affformajout: false,
+      filter: "",
     }
   },
 
@@ -895,7 +928,30 @@ export default {
   },
 
 
+  computed: {
+    orderByCompetences: function () {
+      return this.listeCompetences.sort(function (a, b) {
+        if (a.nom < b.nom) return -1;
+        if (a.nom > b.nom) return 1;
+        return 0;
+      });
+    },
+
+    filterByCompetences: function () {
+      if (this.filter.length > 0) {
+        let filter = this.filter.toLowerCase();
+        return this.orderByCompetences.filter(function (competences) {
+          return competences.nom.toLowerCase().includes(filter);
+        });
+      } else {
+        return this.orderByCompetences;
+      }
+    },
+  },
+
+
   mounted() {
+    this.getCompetences();
 
 
     /*
@@ -944,6 +1000,51 @@ export default {
     */
 
   methods: {
+
+
+    async getCompetences() {
+      const firestore = getFirestore();
+      const dbCompetences = collection(firestore, "competences");
+      const query = await onSnapshot(dbCompetences, (snapshot) => {
+        console.log("query", query);
+        this.listeCompetences = snapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        }));
+        this.listeCompetences.forEach(function (competences) {
+          const storage = getStorage();
+          const spaceRef = ref(storage, "competences/" + competences.image);
+          getDownloadURL(spaceRef)
+            .then((url) => {
+              competences.image = url;
+              console.log("competences", competences);
+            })
+            .catch((error) => {
+              console.log("erreur downloadUrl", error);
+            });
+        });
+
+
+
+        console.log("listeCompetences", this.listeCompetences);
+      });
+    },
+
+    async createCompetences() {
+      const firestore = getFirestore();
+      const dbCompetences = collection(firestore, "competences");
+      const docRef = await addDoc(dbCompetences, {
+        Nom: this.Nom,
+      });
+
+      //console.log('document créé avec le id : ', docRef.id);
+    },
+    async deleteCompetences(id) {
+      const firestore = getFirestore();
+      const docRef = doc(firestore, "competences", id);
+      await deleteDoc(docRef);
+    },
+
 
 
     updateParisTime() {

@@ -1,56 +1,13 @@
 <template>
-    <h5 class="font-oswald text-3xl text-white">Liste des Competences</h5>
-
-
-    <input type="text" v-model="filter" class="border-2" />
-    <button type="button" title="Filtrage">filtrage</button>
-    <div v-for="competence in filterByCompetences" :key="competence.id">
-        <div>
-            <p class="mt-3 mb-2 font-oswald text-white">{{ competence.nom }}</p>
-            <img v-if="competence.imageLoaded" :src="competence.image" alt="image competence" />
-            <img class="w-[40vh]" :src="competence.image" alt="image competence" />
-
-
-            <img v-if="competence.imageLoaded" :src="competence.barre" alt="image competence" />
-            <img class="w-[40vh]" :src="competence.barre" alt="image competence" />
-
-
-        </div>
-        <!--
-            <button type=" button" @click="deleteCompetence(competence.id)" title="Supprimer"> Supprimer </button> -->
-
-        <!-- 
-            <div v-if="affformajout">
-                <creation-view />
-                <button @click="affformajout = false">cancel</button>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div v-for="competence in filterByCompetences" :key="competence.id">
+            <div class="flex flex-col justify-center items-center mt-12 mb-2">
+                <img class="h-[70px] w-[87.5px] sm:h-[115px] md:h-[144px] lg:h-[180px]" :src="competence.image"
+                    alt="image competence" />
+                <p class="text-center font-lato text-[28px] text-white">{{ competence.nom }}</p>
             </div>
-
-        -->
+        </div>
     </div>
-
-    <button v-if="!affformajout" @click="affformajout = true">ajout</button>
-
-
-    <svg class="mx-auto mt-2" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="0.5" y="0.5" width="164.242" height="7.02148" stroke="white" stroke-linejoin="bevel" />
-        <rect width="132.194" height="8.02148" fill="white" />
-    </svg>
-
-
-    <svg class="mx-auto mt-2" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="0.5" y="0.5" width="164.242" height="7.02148" stroke="white" />
-        <rect width="66.097" height="8.02148" fill="white" />
-    </svg>
-
-
-    <svg class="mx-auto mt-2" height="9" viewBox="0 0 166 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="0.945801" y="1.24121" width="164.242" height="7.02148" stroke="white" />
-        <rect x="0.445801" y="0.741211" width="49.8" height="8.02148" fill="white" />
-    </svg>
-
-
-
-    <!--   boucle -->
 </template>
 
  
@@ -87,6 +44,7 @@ export default {
     },
 
     components: {},
+
     computed: {
         orderByCompetences: function () {
             return this.listeCompetences.sort(function (a, b) {
@@ -107,9 +65,12 @@ export default {
             }
         },
     },
+
+
     mounted() {
         this.getCompetences();
     },
+
     methods: {
         async getCompetences() {
             const firestore = getFirestore();
