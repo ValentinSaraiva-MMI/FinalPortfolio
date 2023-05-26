@@ -29,7 +29,7 @@
         </h2>
 
 
-        <!--
+
         <form action="https://api.web3forms.com/submit" class="mr-auto mt-7 ml-auto w-[90%] max-w-screen-xl lg:mt-[67px]"
           method="POST">
           <input type="hidden" name="access_key" value="60e7cf85-4b5c-4ee1-ab1f-6cf8fd02b92b" />
@@ -80,7 +80,7 @@
             </div>
           </div>
         </form>
- -->
+
 
       </div>
     </div>
